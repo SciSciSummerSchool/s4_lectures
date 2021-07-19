@@ -12,7 +12,7 @@ organized by [Daniel Acuna](https://acuna.io) and [Stephen David](https://hearin
 
 ### Day 1: Introduction
 - Presentation: Opening and introduction to science of science
-- Teaching #1 Introduction to environment: Jupyterhub, Notebooks, Github repository
+- Teaching #1 Introduction to environment: Jupyterhub, Notebooks, GitHub repository
   - Activity #1: Login into the system, run a notebook, save, and submit through nbgrader
 - Teaching #2: explore datasets (MAG sample), funding (Ying Ding), mentorship (Qing Ke), content (pubmed open access), images (pubmed open access)
   - Activity #2: simple computation of citations, funding across years, mentorship, text, and images
