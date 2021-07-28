@@ -144,6 +144,9 @@ fabric.properties
 .vscode/
 
 
+.pynb_checkpoints
+
+
 MANIFEST
 build
 dist

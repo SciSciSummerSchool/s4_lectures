@@ -1,0 +1,1140 @@
+09:01:21 The same thing but before starting the sessions, I will just give you an overview of the topics and the timing.
+09:01:30 So, someone is.
+09:01:32 I need to record. Yes. Great, thank you.
+09:01:35 Jen,
+09:01:38 okay great so now I will start more properly, so.
+09:01:47 So I want to give an overview of what we hope to see today, especially the timing so there was a little confusion because yesterday Monday was a little different.
+09:01:56 We ended earlier than we will end, every day, so every day.
+09:02:03 From now until Friday, they will be teaching in the morning. Well, again, the morning for me.
+09:02:11 Until, so from now from nine. Now, until 1pm. And then, there will be a break of one hour and after that there will be group activities, and that usually means.
+09:02:25 I will release a we will release some sort of a small, kind of a homework, please and you hopefully we'll, we'll try it in the environment and you will try to your ideas, but also you can you can use that time to discuss with your teammates and think
+09:02:42 about the project.
+09:02:43 So today I have a little exercise related to text mining NLP for a very fun task of predicting which sentences, need to be cited, so you will learn about that.
+09:03:02 During that group activity. So, it will be one hour from from two to three. And after that, we'll have office hours so if you have questions at any time during those two hours you can contact us but we will have something perhaps more formal go through
+09:03:17 the assignment and explain the components of it.
+09:03:23 So today in the morning will cover five topics so it's a little ambitious let's see how this goes. So we will cover yesterday if we run out of time, but yesterday I was going to cover covered naptime panda some upload live but I will do it today.
+09:03:39 And then I'll get into some basic math or basic concepts that you might need to know about for physical learning machine learning
+09:03:51 some basic linear algebra matrix notation, probably.
+09:04:00 And, and some optimization.
+09:04:02 And then we'll get into a statistical learning what the means.
+09:04:07 And I will introduce in the. I will introduce psyche learn to connect the theory to practical questions.
+09:04:16 And then we'll do model evaluation. So, if you have a data set and you want to try multiple things, how do you think about that process. I think I'm going to lower monitor a little bit.
+09:04:31 Okay, great. So the way that we would structure this is with 30 minutes of lectures and then we'll have a 30 minute block of lecture and then we'll have 15 minutes of our group activity, and we'll have two to three of these blocks of teaching, and then
+09:04:47 we'll have a break now during the group activities.
+09:04:50 If I'm not mistaken, I don't think the assignment is really but I think yesterday were great just to split people around them so we'll just keep with the structure.
+09:05:02 And Stephanie if you have anything else to add, please jump in.
+09:05:09 Happy to,
+09:05:10 too. And I think I'll, let's see. Yeah. Okay, so now I put here in the slide some recommendations of things that you may that you might want to extend to and things that maybe you don't are not familiar with that I will talk to and that will I will talk
+09:05:29 about today.
+09:05:31 So there are these great resources, many many courses that are free available for the basic stuff that I will call you know algebra calculus probability statistics and these are my personal recommendation.
+09:05:44 Recommendation so feel free to to use them as you wish.
+09:05:50 Now one thing that's we fix from yesterday was the problem that some people have when they couldn't login. So, it turns out that what happens is that the the synchronization from the GitHub repo into the, into the, into your environment was had some issues.
+09:06:11 So, So I updated the environment with the lectures for today.
+09:06:17 So if you had issues, yesterday to login. Maybe you were able to log into the.
+09:06:24 But the problem might be that the synchronization is not working.
+09:06:29 So this is more hack that you can do to to re synchronize the GitHub repo. So, and it involves this this simple steps were.
+09:06:42 And I will follow them. So, just so you see how this works.
+09:06:48 I guess I can do.
+09:06:49 Let's see.
+09:06:52 Um, well I guess I'll go here but, and you can follow along I guess I'll show this this slide again.
+09:06:59 So the way that this will work we need to delete this folder here so in the library for folder.
+09:07:05 There is this folder called s for lectures that is being synchronize with the GitHub repo. And again, just to remind you of the GitHub repo, this is a good have.
+09:07:17 This is the GitHub repo for the summer for summer school and we have the lecture here is one of the repositories.
+09:07:25 And what we will do, we will.
+09:07:31 I will open a terminal. So I want to get rid of this folder. Okay, so I will turn it on, it Daniel, real quick question. So this is, this is to solve a problem, if, if one of the notebook files was modified or, I guess.
+09:07:45 Okay, so if you didn't modify a notebook then you shouldn't do this, I will, I will read if you don't say, for example, I'm going to get into as for lectures, if you don't see all this.
+09:07:56 Not books in this folder, it means that something Something happened like you've been synchronized properly.
+09:08:02 So just in case of doubt, I will repeat this during the activity.
+09:08:06 But this is what I'm talking about. So, the problem is that if you want to know because if the system will alert you that is having trouble synchronizing so.
+09:08:19 And so the way that you will do this is with this command.
+09:08:23 Remove.
+09:08:25 you're going to remove recursive Lee enforced so he's a little dangerous, but hopefully you don't have anything valuable there yet, and you go to you're going to remove inside libraries, yes for lectures folder.
+09:08:38 Okay, so if I execute this.
+09:08:40 Everything will remove and you won't have that folder here.
+09:08:45 And then when you have to you have to shut down the server.
+09:08:50 Cancel you have to go to the control panel and chat, your own server down, so this will just restart the container that has all the codes, and he will read full from GitHub.
+09:09:05 Guess we'll just take some time. Okay, so it did.
+09:09:09 Okay, so it did. Turn it down. So now I will just press star my server and I select the only option that there is, and it will receive Christ everything.
+09:09:22 and
+09:09:25 hopefully I won't have any any issues.
+09:09:31 Okay.
+09:09:33 So now if I go to library you will be brief synchronized, and I, and you can see the time you happen second seconds ago. So, Okay, great.
+09:09:44 Alright, so, uh, some announcements, if you don't have a project yet, that's fine. Yesterday there was a lot of interaction among the participants,
+09:09:56 that if you want to.
+09:09:59 If you want to connect with someone, please send your ideas into the ideas for projects channel on slack.
+09:10:09 Some groups have already created channels and you can browse them, I think Jim share some screenshots have to do that.
+09:10:17 Now we'll keep the sumo open after the meeting after the long, sorry I will close this soon during the long break so in my couple hours, because we need to download the videos and put them on YouTube and deliberately and will reopen it at 2pm.
+09:10:31 After the, the, the evening session.
+09:10:36 After the reading section yeah good idea.
+09:10:41 Joy.
+09:10:41 So, those, that's the place where the lectures are. So after the main section, we will leave the zoom open, if there are questions, if there are people want to, you know, talk and keep discussing this, feel free to do it.
+09:10:55 Now Jim has been updating the, the website so yesterday I recorded the video of introduction to Python and it's available there. So check it out, you go to schedule you will see the video here.
+09:11:11 Okay, so are there any questions.
+09:11:16 Okay. I'm not sending.
+09:11:21 I hope people can see the link.
+09:11:28 People see the link that share.
+09:11:45 David means difference I
+09:11:45 don't know.
+09:11:42 We're don't see it now.
+09:11:45 This everyone in the meeting room. Okay, everybody Megan. Okay. Well, okay.
+09:11:48 Okay, thank you.
+09:11:48 Okay, great.
+09:11:51 So I'm gonna get started with the first topic and that's going to be a dime pie, and I'm Candace, and mottled live.
+09:12:06 I'm here so I'm going to start with the slides first.
+09:12:16 Okay, so for some lectures, I will have an Anna Anna appear pair of not a pair of slides, a notebook so in this case I have the slides and I also have the notebook, where we'll go through examples and we'll see how to do some operations.
+09:12:34 So, All right, so maybe you're familiar with Python already but what was really revolutionary about Python is that he had this. I think they used to call it like a programming language with with wheels with training wheels or something like when you you
+09:12:51 download it and install it he had up he came with a lot of libraries that you can use for very common operations.
+09:12:59 Now one is statistics that I once learn about Python, I don't know if still true is Python as a programming language has the most PhD and researchers working with it.
+09:13:13 So, so, and consequently, a lot of libraries for compete for scientific computing are were created for Python and.
+09:13:27 And it took a lot of inspiration from MATLAB, if you know what that is for the creation of multi dimensional Ray manipulation, and how you access the elements of array, something like that.
+09:13:42 So here on the screen I'm showing some of the packages that form the ecosystem for scientific computing. Today we'll take a look at a non pi, which allows you to create multi dimensional arrays.
+09:13:56 And we'll look at pandas, which allows you to have multi dimensional arrays, but we name some with different types.
+09:14:04 And then some examples of how to plot the results based on pandas and other libraries to I think we'll take a look at seaborne to.
+09:14:17 So, these libraries are well they're called actually packages in Python. So, the, when you install a package you have to import it with the with the common import.
+09:14:32 Yesterday, we already saw that when there is called inside just one file that's called a module so you can mean in Python parlance, you have to say, Okay, I'm going to import the module, you know, linear programming from the package, a psychic learn to
+09:14:53 my analysis, and that's and that's how that's the language that is used.
+09:14:58 So, non pie. Kind of solves the issue that you have with just vanilla lists in Python, where you don't have the operations that you would expect from standard libraries, from standard linear algebra.
+09:15:15 So let's say I define a vector, or I will think that I'm defining a vector here a. If I do four times a the standard operation in in mathematics is that the four will multiply each of the items, but with least for some reason the designers of Python decided
+09:15:30 that if you multiply a light, at least by a number, it will just duplicate it four times. So, that's not really what we think about how vectors should work.
+09:15:41 So now Empire solves a lot of those issues is make he makes.
+09:15:45 First is faster than than done, list because all the numbers inside of iro the same type, and you can have multiple dimensions, and you can have easy ways of accessing the elements in the library.
+09:16:01 Now, when you see here is just, again this is right so it's a slides inside.
+09:16:08 Jupiter notebooks, and I can execute the code that is that is here so it's very convenient to show you how it works so here are just important non pie and the use of language that people use these NP, and I will show you how to create a race I will show
+09:16:21 you how to create a race from Python elements, or there are some matrix generator function, and other libraries also generate vampire race so it's like almost the way that we communicate multi dimensional arrays among across libraries.
+09:16:39 So I will create with this cause an array, a one dimensional array with just a list of numbers.
+09:16:47 And I will create another an empire array. This case with a generator, so it will generate a matrix, three way three with zeros. So, that's pretty intuitive.
+09:17:00 So for efficiency reasons, non pie.
+09:17:09 Only stores, one type in, in a list or in a, in an array. Okay, so that's different from list if you remember yesterday, in a list I could put anything I want so I can have at least two numbers on a string, but a non pie that's not allowed.
+09:17:20 So if I do this, it will cast to the most expansive type. So in this case it will say okay I want to transform these numbers into strengths, and you can access the type.
+09:17:32 Using this access or for non pie. So here's saying this is a Unicode array or non pie right
+09:17:42 now we can access the elements of the array senior to how we access the elements yesterday with with list. We can do a slice into very similarly, but now we have this more powerful way of accessing multi dimensional elements of my of my array.
+09:17:58 So, and if you know, linear algebra, this is just very intuitive, you can access. If you have a matrix of two dimensional matrix. Well, a matrix, you can access the eighth row and the Jays column.
+09:18:11 Successful examples and when I say to a race, sorry two matrices, or two nap I array.
+09:18:20 So because the first one is just a one dimensional array if I select one element I will just get a single element the single number.
+09:18:28 Because the second one is a matrix so it has two dimensions, if I only select one dimension in reality I will, I will receive vectors because it will slice the matrix, it will distract the vectors.
+09:18:42 From the roles of the matrix.
+09:18:52 I'm sorry not this case sorry in this case I just lie similar to yesterday, the case that I was talking about slicing the role sister, the following.
+09:18:59 So here, if I select one element of the matrix, it will return the row.
+09:19:08 And I can do more fancy operations like slicing.
+09:19:13 And what's nice is has all the usual operations that you would expect from a matrices, you can transpose A matrix.
+09:19:21 You can if you multiply number with an empire a will do what you expect it will multiply the number for by each of the elements.
+09:19:30 And some reason I jumped all the way to the end
+09:19:38 here.
+09:19:40 Okay so multiply each of the elements by two.
+09:19:44 The same thing happens with this operation summation.
+09:19:49 Now matrix multiplication, you can do it like this you do, which is basically a multi dimensional product, you can do a times b using this, or there is a new notation.
+09:20:01 In Python that you can use the app sign, and that means multiplication too, so it looks cleaner.
+09:20:11 So this interface of questions chat. Check.
+09:20:16 I need to be good. Okay, nevermind.
+09:20:20 Something else. And you have other operations like matrix and version, and so on so forth.
+09:20:27 Now another way of generating a non pi raise through random generators, and if you already do simulations. These will of course be bread and butter for you you will, will like to generate you know networks or data and see the effects of certain operations
+09:20:44 in your simulation. So, non pie has a wide range of random generator so here's kind of a hacky command to get all the distributions that you can use to generate data.
+09:21:02 So, you have the usual suspects you have the normal distribution, but you also have more exotic distribution such as I guess guy square for example or dish leads division.
+09:21:13 So.
+09:21:16 So this is an example of how to generate a random matrix would random entries from zero to one, so his uniform of these two minutes and I create a matrix of five by five.
+09:21:25 Every time I run it of course they will generate a new number.
+09:21:29 And I can do the same with other distribution. So, I can say generate matrix with, where each element is thousand distribution would mean five and a standard deviation to.
+09:21:45 Okay, so another very powerful operation that you have with non pie race is the ability to group to do operations by groups. So, each array has, has access to these operations again with the dot.in the press tab you will see all the things that you can
+09:22:06 do. But for many of the I method operations such as mean, you can just apply it directly like this, and this.
+09:22:15 What it will do it will compute the mean of all the entries in the, in the non pie array. You can also access the same function in non pie using NP mean and you will do the same, but something is clear to represent the operations like this as a method
+09:22:32 of the object.
+09:22:37 Now sometimes you want to do operations across a rose for example if they take the mean of each of the roles or take the meaning of each of the columns.
+09:22:46 And you do that by specifying which axis you want to traverse okay so you're saying you want to go through x is zero, which are the roles and you will take the mean of.
+09:22:57 of the entry so basically you will have.
+09:23:01 You will have the necessary number of columns will be the outputs where each entry will be the summation across the rocks.
+09:23:10 And here, I guess it's hard to see the same but now I some across column so you will get the number of rows us an output.
+09:23:22 And there again many operations so you can apply.
+09:23:26 You can, you know, get the maximum location of the values, the minimum location swords, the usual things that you will need for your simulations.
+09:23:41 You can also chain operations of course because every time you execute something that is normally vacation so all the operations or non destructive. So if you do.
+09:23:52 A transpose it, it doesn't really change a four, in this case so, so you can read these by saying okay when I first transpose, the matrix and I will take the mean across the roles and then I will take the summation of that of those meats.
+09:24:21 doesn't have a practical application, I guess. But it looks and feels clean.
+09:24:16 Sometimes you want to select some elements of the matrix. So, if you do an operation that will return a Boolean like these are like a comparison.
+09:24:24 It will just say okay if these elements agree with this with this criteria so here's returning the elements that are greater than five.
+09:24:33 So, then what I can do, I can say, Okay, give me the elements, for which this mask is true. And because he has no way of knowing whether he will you wanted to return columns or roles he would just return the elements that agree with that criteria so this
+09:24:49 will just return an array was one dimensional a one dimensional array which is the, the elements that have that those entries greater than five.
+09:25:03 Nice. So sometimes you want to select gross. So let's say, let's imagine this example when I'm. First, taking the some across columns so I will, this will return for each role the summation across the columns, and I want to ask whether that's summation
+09:25:24 important 2.5. And unfortunately it didn't it didn't match because it's just randomness I'm going to say to okay so I have one of the roles, has summation across rose columns to fold and if I modify this, I will select.
+09:25:41 If I mass, only the roles I will select the role for which That's true.
+09:25:49 Now, another very powerful operation with an empire race is the operation is broadcasting so there is this typical transformation that you sometimes with statistical statistics, where you take a matrix of features and you normalize them in some way or
+09:26:07 your standard Dyson. And the way that you do that, you take the say you take your spreadsheets, you take for each of the columns the mean. And then you go, and then the sun deviation per column and then you go through each of the entries and you subtract
+09:26:20 the main of that column and divide by the standard deviation. So that's a very common operation so that you kind of transform everything to Z score, and then it's easier to compare, it's more intuitive, if of course, it matches the distribution the normal
+09:26:34 distribution.
+09:26:36 So we know that's very easy so let's say we have a matrix of three by five. I can do the following which is which is at the beginning, a little confusing so I will take the mean cross roles, so I will get one entry per column.
+09:26:52 And then I will subtract the matrix, which is five by three, I will subtract from there.
+09:27:00 A vector. So, what I will do what he will do it will say, Okay, this vector coincides with the dimensions of the second of the second dimension so what it will do it will duplicate this internally.
+09:27:12 And it will basically create another five by three matrix where it will duplicate this role for each of the five rows. So, this, then it's easy to to apply it will just, it will do what we want, which is subtract the main from each of the entries.
+09:27:29 And you can do the same with some litigation if you want to revision. The same thing I'll take the dissociation across roles. And then if I divide it will broadcast, and he will do the operation of standardization.
+09:27:46 Some operations are not simply apply with, with the characters you can have something more complex, for example, The sino soil function.
+09:27:56 And those are available in the non Pio right.
+09:28:02 Okay, so
+09:28:04 let's see.
+09:28:06 So that's non pie. So, one of the problems in non pie is that each of the each of the columns or each of the entries has to be at the same time but sometimes you want to store, different things so we have a data set, let's say, of it we have the Microsoft
+09:28:24 academic graph data sets.
+09:28:26 We have different for a paper let's say we have you know the number of citations so that's the number of then we have the name of the journal and that's a string so you might have different types of columns.
+09:28:38 So partners solves that problem by first, allowing you to have different types per column.
+09:28:43 And also it allows you to name columns and rows so it's easy to access them and you only to remember the index.
+09:28:51 Now internally panelists is it's a it's a collection of columns and they call the columns serious. Okay. Now one of the things that I don't like too much about pandas is that the person who created it has a background in.
+09:29:08 In, finance, so it's an amazing tool for competing for time series analysis but we don't really use a lot of times he isn't in the science. I guess I don't, but.
+09:29:17 So there is this huge set of functionality that is amazing, but I don't really use it.
+09:29:27 So let's go on to the non book.
+09:29:32 So this is, I opened the notebook, and I'm going to go through some examples upon that so I will import pandas, the usual name is PV. I will be putting on pi too.
+09:29:42 So, you can simply create a pandas data frame by passing a non pie.
+09:29:49 So here I will create an pandas data frame by passing data matrix and Empire, right. So, he will automatically give names to each of the columns, he will just give well he doesn't really have a name you just have an index and this index is start from
+09:30:14 zero. And then the roles, the same thing, but you could in principle have different names for the columns and different names for the roles. Now, this place it nice nicer than non pie so use place non pie.
+09:30:40 You play nine pie in the Jupiter notebook, it looks like this so it's not too pleasant to look at it.
+09:30:31 But panda has this interface to display it in the notebook, and he looks at the sword formatting and some truncation so that it's easier to, to see.
+09:30:42 Now you can create panda race by combining serious so here I create I create two series of numbers.
+09:30:48 And these are basically columns of an empire Ray and I can create a sorry, there's a columns of a panda so I can create a panda spike by giving, giving a name to each of these series.
+09:31:03 So now I can access the columns by name, because now I give a name to this column I can say you can give me the column packs.
+09:31:13 Or you can say give me the columns why and then the columns, x so I can reverse the order.
+09:31:18 Now the cool thing is with pandas you can do operations that are
+09:31:24 that are
+09:31:27 broadcast to so you can multiply number by the entries in the data frame.
+09:31:34 Look at transpose.
+09:31:49 Okay, so I'm going to skip part of these because we have a more relevant demo below so you can go through these by yourself. So we have the typical, the usual subjects suspects we have joining similar to sequel.
+09:31:56 You can join to data frames, using the separation. You can apply functions to groups.
+09:32:04 You can do more complex operations.
+09:32:06 Ok so now I want to see a more concrete example with Microsoft economic graph.
+09:32:12 So again, the Microsoft Kinect graph is in the environment so if you go to data sets. As for Meg we have a sample of the data here. So the CSV files are the samples have proper column names.
+09:32:29 I guess I'm opening a CSV file.
+09:32:35 You need double A well because you need to pass a list, basically. So Sylvia asked, why do we need double brackets. So you pass a bracket first to say okay I want to select something and then you say I want to select multiple things so you have to pass,
+09:32:49 at least, so you have double brackets as a result.
+09:32:55 So, I guess we already have panelists.
+09:33:01 So I can say a CSV file please load into pandas so it's very, very easy.
+09:33:09 And if you know our.
+09:33:12 I mean pandas is basically data friends they got inspired and stole a lot of new ideas from our.
+09:33:22 So I'm going to load the papers data frame from mag.
+09:33:28 And, and I'm, I can inspect the data frame so he has operations for inspection so we have had to just give the list of, I guess by default is five first roles, I can ask for tail.
+09:33:43 So the last five rows so we have, you know, a decent number of papers here, 121,000 papers.
+09:33:52 But I can ask for the first 10 rows. Okay, so I can choose the forensics. Now, I can look at the columns so what are the columns that are pressing the CSV, and I can look at the types of each of the columns.
+09:34:03 Okay so paper IV.
+09:34:09 It's available in in mag. Now one cool thing that I usually like sometimes you will know what's going on. You want to know something all the paper. So this paper it is exactly the same API the that is available in Microsoft academic graph so if I search
+09:34:22 if I search a paper here.
+09:34:24 I guess I guess my you're sure you're sure, Ben, do you go to this website you have these numbers here so if you just replace that with the number that you have in our, in our data set, you will be able to see more details about that paper.
+09:34:40 Now this doesn't have much it doesn't have citations and isn't enough.
+09:34:51 And I've looked like Spanish, but I see something like cattle, I guess, mature.
+09:34:53 So another question is when CSV doesn't get arranged you know he doesn't get it he just reads, as it is it is in the, in the file. So, the same order of roles the same order of columns.
+09:35:06 Now we can have these operations that is again if you're coming from, are you can describe the data frame, and he will you can get some basic summaries, somebody statistical it.
+09:35:16 You can access the columns. So with this operation you will get the series so you won't get a data frame back, this will be a serious so we'll just call them.
+09:35:25 Okay, so if you want to get a data frame you have to do this operation. I guess this is related to what he was asking why we need two brackets so with one brackets, you only get a serious but with two brackets, you get a data frame so I can get a data
+09:35:39 frame of only.
+09:35:43 of all the paper title by doing the following so I do papers.
+09:35:50 Double brackets paper title and this will return them data frame but with only one one column, I can select as many columns as I want.
+09:35:57 Now the way of accessing the columns, is by using the dot notation. Now, they don't recommend this because sometimes you have in pandas.
+09:36:07 The object pandas has many operations that are like you know edition and things like that so it's unclear whether these. It's a column or is an operation.
+09:36:17 I mean, It looks like a column, but sometimes it's ambiguous.
+09:36:23 Um, you can do indexing the same as you do with non Pio race.
+09:36:29 You can do sorting.
+09:36:30 So here I'm sorting the papers, by looking at the by citations and saying, Okay, do it in descending order. So this is the most cited paper in this data set with 263 1000 citations very close to my most my cited paper very close.
+09:36:50 Now you can access different components different cells of the, of the data frame you can say, give me backslash mean.
+09:37:01 Oh, excellent question. Yes. So, these in reality is a one liner.
+09:37:07 Okay.
+09:37:08 But in Python, if you run a one liner and you continue below it will complain.
+09:37:13 So I want to make the connection between the two lines, so to say, Okay, I want to continue the code below you go backslash.
+09:37:21 Now you don't need to do only that backslash when you have parentheses because it understands that you will continue so here doesn't matter if I can add spaces, I don't know, I don't need a backslash, so.
+09:37:34 So we look, I can access different components of the, of the data frame I can access from one to fourth row and I want to just get the column paper title.
+09:37:46 And I can do all kinds of interesting stuff. Now lock is smart in the sense that you can pass numbers but you can also pass names. Now sometimes you don't have the names of the columns or for some reasons that you.
+09:38:03 You can make it became more like an empire right where you just pass the indices of the things that you want to do that you have to use I lock, so index location.
+09:38:13 So, it can be a little confusing, but this is just the Think of it as accessing it similar to how you would access an empire right.
+09:38:22 You can do query operations and I think someone asked me yesterday and I may have forgotten to answer the question, how do you recover. Certain let's say paper so if you have a paper here and you want to.
+09:38:36 If you want to find specific paper you can do it with this operation like this so with this I will.
+09:38:43 Well, first let's take a look at this. So this creates a series where we'll have just a Boolean series, and it will have the, the roles for which the paper has more than 100 citations.
+09:38:56 So, and then if I pad the series as part of the, of the bracket notation, I can get all the roles for which the paper has more than 100 citations.
+09:39:08 Another way of doing operations like these, sometimes might be a little more intuitive, is to do a query operation.
+09:39:16 Sometimes it works really well sometimes it doesn't work because when you put inside it's not really doesn't interpret it very well so I can do something like this.
+09:39:24 I will query the data frame, and I will I want the roles for which is true. And it should be the same result, above.
+09:39:35 You can drop an age you can do the usual things that you would expect some papers don't have a document type for example so in fact most of them don't have a document type, it seems.
+09:39:50 Now you can feel the entries that don't have a document type you can you can do this, these.
+09:39:56 I guess what's appropriate name.
+09:39:59 A invitation I think it's called statistics you just say okay if it isn't in a book this value.
+09:40:05 And you can apply operations two columns.
+09:40:08 And you can apply summary statistics to, to the data.
+09:40:15 Alright, so let's see.
+09:40:20 Okay so this goes on and on.
+09:40:22 Oh, the query ok so the query works like this you just put the query command and then inside in strings. You put whatever you want to do and you can combine things you can say something like citation counts.
+09:40:37 Less than hundred 50. Hopefully that works ok so now it's not as powerful a sequel, but you can put simple stuff inside.
+09:40:49 Now,
+09:40:49 I will low pay presentation context so in mag we have this amazing new data set where you can see where a paper was was cited nowhere. I mean, what content, what is the text surrounding the citation.
+09:41:09 Okay, but to do this.
+09:41:05 We have to use a join so we have our paper data set. So I'm going to really just two rows.
+09:41:16 And, well, the, the paper citation context doesn't have all this information but sometimes you might want it, you might want the citations for example.
+09:41:23 So to do that, you have to do a join until to join you use the marriage preparation.
+09:41:30 And I'm going to join these two data frames using paper ID, and I want to access from the result just these two things.
+09:41:39 So,
+09:41:48 now you can do group operations as well you can you can say okay give me for each of the documents types, give me the mean the average number of citations per document type.
+09:42:02 And how many papers you have per document type.
+09:42:08 Alright, so I know that this is a lot to digest but hopefully this is being recorded and you can you can watch it more slowly later.
+09:42:18 Now I'm going to move on to plotting. Okay, so plotting. If you are, if you are familiar with MATLAB, this should be like very intuitive, if you're not familiar with Metalab.
+09:42:29 This is not, this is a little weird. So plotting in Python, started very very primitively I would say, you know, 20 years ago 15 years ago but he has been improving a lot, but one of the basic libraries of plotting school pipe lot and he's part of a package
+09:42:46 package called map live.
+09:42:48 And this is the typical way in which you import it.
+09:42:52 You can set up the styles and there is a list of styles and you can look at look at them here.
+09:42:59 For flooding and.
+09:43:02 And the way that you plot, you can plot vampire race so he can create an empire Ray, and you can inside the notebook if you do multiple blocks, it will overlay one plot over the other.
+09:43:18 Okay, so.
+09:43:22 And again, if you're familiar with my plot that will in MATLAB this should be very intuitive but basically the idea is that you pass First, the x axis the y axis, and then the style of the line so this dash means is a continuous line, whereas the dash
+09:43:35 dash means that dashed line.
+09:43:37 So, x is just, again, a list of numbers and MP MP sign will just complete the sign assault of each of the entries, so you need to have array have to have the same number of the same length.
+09:43:57 And you can you can have subplots so these are examples and there.
+09:44:03 You can adjust
+09:44:06 colors. So I'm just going to go over this so you can see this. This powerful.
+09:44:20 ladies is our library. I'm not very happy with the status of plotting in patterns in Python, there are too many libraries I wish there was something like, well the something like did you blood if you're from our.
+09:44:30 But anyway, so this is critical seaborne that allows you to do things more intuitively.
+09:44:36 But here we're just using it to set the style. Okay, so we're not really using it to plot, we're just saying, okay, you said the style from seaborne unplugged using just simple map lovely bunny will set the, the format.
+09:44:49 But seaborne has more complex operations and you sometimes you want to do so here we're, we're loading the iris data set. And you can do appear plot where you plot the histogram of the value so Iris.
+09:45:04 I'm, I'm sure you're familiar with this data set where you have different types of flowers, different measurements and you want to look at them, the histogram and and the correlations, of them.
+09:45:17 All right.
+09:45:21 Okay, so even all of that.
+09:45:28 We have an activity. So this is great.
+09:45:32 Now, you know it might take a little time to get used to these but but let's try trying this the first first step to success and failure, but let's try to do this activity.
+09:45:42 So, again, go to the environment, if it's if the environments not working.
+09:45:50 You have to do the steps that I showed before where you can you can reset, basically the environment and we're going to put here.
+09:46:01 You're
+09:46:04 just in case,
+09:46:09 case. And so, Let's do activity, number one, and let's do a breakout room for this.
+09:46:19 And, and I guess we will do just random breakout room if nobody interrupts me.
+09:46:26 I guess differently if you have a better idea I think we need random yesterday and that's fine.
+09:46:36 Alright so we are going to do 12 breakout rooms.
+09:46:43 And let's just do it.
+09:46:48 Let's, let's see, and we'll have. Yeah, Let's do 10 minutes.
+09:46:55 And people can move around.
+09:46:58 Make a copy of the novel before running it.
+09:47:02 Oh, that's true. Yeah. So, that would that way you can avoid the review definitely, you don't want to be doing this annoying thing.
+09:47:11 It's better to do a copy so you file. Make a copy and then you work on the notebook. That's better, more sustainable, I guess.
+09:47:21 All right, so let's take 10 minutes to solve this. This plotting question.
+09:58:26 Yes, hello,
+09:58:31 everybody out of the of the rooms. Very good.
+09:58:36 I see.
+09:58:41 Alright, so I'll resume recording.
+09:58:44 Hopefully you can hear me okay great. So how did it go guys. Anybody with, with the answer or with a with a question. Let's start with the questions any any question about this part something that is confusing perhaps.
+09:59:07 What about the answer.
+09:59:11 I realized that I didn't put the answer in the report, which is kind of funny, can anyone do it in one line of code is what I wanted. Yeah, that's one the one liners only
+09:59:26 Dory a well.
+09:59:31 Oh, great. Thank you. I'll go to so let's see, so new.
+09:59:36 This one came up. Thanks, Stephen okay so you select the papers excellent you group by and then you plot. perfect.
+09:59:44 I'm just going to copy paste plagiarism is at its best.
+09:59:54 Nice.
+09:59:56 Now what's all but this is what was the question so between 2000 2010 so there's something missing here.
+10:00:05 Yeah, because we, we need a different filtering we we selected seems 1980, I didn't read the question.
+10:00:13 Yeah. Nope. Yeah.
+10:00:15 We're down to 30 seconds it was so we can do our query here signature.
+10:00:23 Your reason. You can also do.
+10:00:28 Then we have our our one one liner here.
+10:00:31 So I think it's clear what you can do with this one but let's see this one.
+10:00:37 I guess the copying the wrong.
+10:00:41 Cactus here.
+10:00:55 Excellent.
+10:01:02 A is a unique
+10:01:06 well.
+10:01:09 Okay so that is another attempt. Excellent. That's what we like.
+10:01:21 Interesting.
+10:01:23 Oh, so we have the Okay, great.
+10:01:26 So we have the so what does that. And then you do select certain location that is smart enough to realize that you want to do.
+10:01:42 Great. Okay, great.
+10:01:44 Now that is a more advanced question.
+10:01:49 Oh, he's in a different folder okay I messed up that he's a more advanced question in the in the in the next but we're not going to do it just a little bit as a, as a challenge for you.
+10:02:04 I'm recording excellent so I'm going to now move on to the next set of slides, and let me look at my notes. Okay, so, so I'm a little behind so I might like rush a little bit in some areas that I don't think are not important and by that I mean, I wasn't
+10:02:28 particularly with a math, I confess, but once I started learning it, I think it allows me to to abstract so much, so I don't need to. I can generalize much better.
+10:02:39 So, if you're like me, I assure you that learning the basics of what you're learning the basic theories and basic ideas about basic language that uses.
+10:02:55 It's going to pay off by a lot.
+10:02:59 So I'm going to review.
+10:03:01 Three things so I'm going to review some notation matrix notation, a little bit of.
+10:03:06 Not even optimization just some some
+10:03:10 some basic concept for calculus like derivatives that will be used later next especially in deep learning for optimizing and for learning.
+10:03:18 And some ideas about probability expectations and things like that.
+10:03:25 Okay, so usually in notation, we represent scalars as Greek letters.
+10:03:31 These are just numbers matrices are array, a two dimensional array of scalars, and we say that the matrix has a certain number of roles, and that's the number of of elements that you have going down and a certain number of columns are the elements to
+10:03:48 you that you have, do you have in the width of the matrix. And you can think of a matrix basically as a spreadsheet where you have enrolls empty columns.
+10:03:58 Now the notation that we usually use to access the elements of a matrix is this one we have subscribed to access them.
+10:04:05 So this will mean the eighth row on the JC column.
+10:04:12 Now sometimes we represent our data as a matrix so basically we say, each of the roles represents the features of our subjects or of our journals or whatever we're modeling, it's just different samples independent samples from the data so we can think
+10:04:29 of, of the, of what these notation we can think of just a single index or saying, Give me all the data that belongs to a single object so the single data point in our data set.
+10:04:43 And that's going to be p dimensional because before I said that. Let's just say that we have a p dimensional. a PP number of columns.
+10:04:52 So, this will just return a vector. So you could represent the data for particular data point with this notation.
+10:05:02 Now usually when we talk about vectors we automatically think about column vectors. Okay, so even though these really represents a row. So if I go back.
+10:05:16 This is a row of this matrix, when I just access one row I we the convention is that it will be a row vector, a column vector. So, it will be a call of, even though in the matrix Sarah.
+10:05:32 Sarah.
+10:05:42 Now we can also represent the features for all our subjects so I'm borrowing here from the book, the elements of a statistical learning and they use these notation. so if I use like a capital X instead of Italia, x, and I, the column index, I will get
+10:05:53 the representation of the column. So, this will get the column I'm going to go back again solely for the back and forth, it will represent all the, all this, all the data points, a particular feature for all the data points.
+10:06:12 And now, there are many operations with matrices transpose, that are inversions. We won't really use them, I mean in in in the teaching but you have to be aware of certain operations that are there are standards, the standard.
+10:06:33 Now, the best motivation to learn about matrices and the and the and the properties that they have and This to me is because matrices represented linear function so you can think of the same matrix multiplication.
+10:06:53 As application of linear or more, more carefully, a fine print forms, so you can think of them as function so you can it, there is this very beautiful connections between matrices and functions so you can analyze functional functional analysis with matrices.
+10:07:10 So, so it's a very very nice way of of representing the mappings between spaces.
+10:07:17 So when we talk about data.
+10:07:20 If I say we have a data set of data points. I will mean that I will have a set of pairs game so this isn't in the supervised learning set setting I will have pairs of data points where I will have the features for each of my data points pair with an outcome
+10:07:41 that I want to predict, so this will be, will see later as an example that we want to predict the citations of a paper XQB features such as the prestigious the author of the prestigious institution, the procedure of the art journal, can we predict the
+10:07:56 citations of the paper only based on that, how much, how much explanation. Our just those three features have, so you can think of acts as the collection of those three features and why as the citation.
+10:08:12 Now sometimes we have constants. So they're not variables, and we represent them with just Latin letters.
+10:08:22 And there are set Miss special matrices, and sometimes you can represent them very efficiently with these notation, you can say I'm going to create a, I'm going to define the matrix implicitly by defining a function first and saying that I will generate
+10:08:37 the matrix of it just by just evaluating each of the AJ, and priests in the, in the function.
+10:09:02 Now that our summit operations, you can do matrices if you multiply a matrix with a scalar us multiply each of the entries by the scalar as we saw with non pi already matrix addition they have to be compatible in the size for this to happen so this point
+10:09:04 wise edition of each of the elements matrix multiplication, the number of columns of the left hand side matrix has to coincide with the number of roles of the right hand side, columns, and this is a nice way of representing what the matrix multiplication
+10:09:19 is and transposition the same, you can represent the with this. Sure.
+10:09:24 shorthand notation.
+10:09:27 And there are like countless if you're if you are into linear algebra There are countless operations and identities that people have found of all matrices that are very very useful and I'm going to go over them but if if your fantasies that is all this
+10:09:42 this is this very famous cookbook that has all these, these properties that you can you can apply and again because it's connected with functions and even a lot of network science, you can think of the networks as matrices and connections as the entries
+10:09:57 in the matrix, you can do you can think about connections and about our properties of networks with matrices, but for that, wait until tomorrow.
+10:10:09 And we say that these are the usual way which we represent the dimensions of a matrix to have the link for vector.
+10:10:33 Alright so let's get into maybe something more concrete so we will start with very simple models that relate inputs and again I mentioned the opposite predicting citations, with outcomes with a simple linear combination.
+10:10:53 Okay, so I don't, I don't have an example here, but if you know graphs usually graphs, you have the same you have a line, you have an intercept and a slope and you can start to think about what this what those things mean.
+10:11:08 Yeah, so let's take an example of following very simple idea. So let's assume that I have the following statistical model that I learned from data.
+10:11:17 And I'm estimating the income of someone as being malicious in dollars, let's say, US dollars, starting from $20,000. And then every time you have one year of age, you increase your income by $5,000.
+10:11:30 This is very optimistic.
+10:11:32 But let's assume that we have this, this, this model, then we can take this and make predictions. Okay, we can say, Well, if someone is born right so the if the HTC will predict, we will predict that the person will be making $20,000.
+10:11:48 So, already we're violating some assumptions of how life works.
+10:11:54 We can also think about the units. So, the income supposedly is in dollars. So that's the unit of the income. So age. Here, I mean this this value here 5000, it's really expressed in the unit of income of the unit income divided by, by age, so basically
+10:12:14 these 5000 the unit should be, you know, money divided by years, and then you have eight years so when you guys get multiplication the unit coin size.
+10:12:24 So that might be important later when you have multiple features in the same regression you might you have to think about how to interpret the weights of your regression.
+10:12:37 So let's say we want to make predictions for different for these three individuals, well we can represent a prediction as a matrix multiplication. So it's very intuitive, we can say okay the model that I learn has these weights, so it's just linear model.
+10:12:50 I have the intercept or the bias term and then I have the weight of the age. And I made it I'm going to represent it like this with dummy variable so that when I multiply it.
+10:12:59 It makes sense I produce the intercept. And then the second column will represent the features.
+10:13:06 So my predictions now will be very easily represented like this I just multiply this matrix, by the way.
+10:13:13 Now, I can have multiple features of course so here I have ah and I can have education represented as the say the number of degrees that you have.
+10:13:22 And I will do the same thing I will represent the model.
+10:13:25 Three weight so I have the intercept, or the bias term, the eastern education term. Another feature matrix will be the bias column.
+10:13:42 Now, when we get too deep learning, we might we might look at how we optimize how we can find the proper weights for our neural networks, and while one way of doing that is by following the gradient of a loss function so basically we're trying to find
+10:14:01 the place where there is no change in the gradient.
+10:14:04 So we take our function.
+10:14:07 We want to find this place is here where we were there is no, basically we find a zero in in the green that is not change. Okay, so if we look at the infinitesimal change of the outcome the y axis as a function of the infinity symbol changing x, we want
+10:14:24 to see kind of the closest, assuming line that we can fit to the, to the, to the, to the function. And by looking at the places where we're at zero we can optimize and we'll look at that in more detail later, but the derivatives are very powerful ways
+10:14:43 in which would represent learning, machine learning.
+10:14:48 So this is the definition.
+10:14:50 And you can apply the definition to a function like this let's say I want to take the derivative of this function with respect to with respect to x, I can apply the definition.
+10:15:00 And if I, If I divided up DNA will get be. And if you have training in calculus, you don't even need to lose innovation because you know that you know certain properties so so that's one of the nice things about videotape so you have all these innovation
+10:15:15 rules that you can apply very easily. And you can take the real deal so very complex operations.
+10:15:21 Now again when we get to more complex, the special recursive functions, such as
+10:15:29 well here I'm not showing but the chain rule. So here I have the combination of two functions and for some reason I'm missing a parenthesis I'm going to be, I'm going to do live everything here.
+10:15:38 So I have, if I have an S the function.
+10:15:42 I can still compute the, the combine derivative by just looking at, at the multiplication of period.
+10:15:55 Yeah, if anybody. Yes, great way suggestion. Thank you.
+10:15:59 So, this is channel they love three blue one brown that explains very visually, what many of these concepts mean and even they have on deep, deep, not deep learning but a neural network so definitely check it out.
+10:16:15 Thank you.
+10:16:21 Um, so, and you can you can apply. Do this for more complicated functions that are very well known forms for the derivatives, especially when again when when dealing with neural networks, but for now let's just leave it like this.
+10:16:40 So these famous function in your network called the sigmoid and if you take the derivative, it will take a very nice form so maybe let's let's leave this as a homework for you to do later.
+10:16:58 Okay, so I'm innocent mystical learning.
+10:17:03 We think that our results, the data that will receive and the parameters that will learn our old stochastic so they have, that is a source of noise that doesn't allow us to know deterministic Lee the actual values of, of those quantities.
+10:17:23 So, probability is this is a field that allows you to quantify those uncertainties, with the languages is coherent that is mathematically correct so.
+10:17:36 So probably if you want to learn about uncertainty on how your models are doing in terms of performance then is there is a language that you should learn now probably this is a very intuitive world, and I still fail to solve some very basic puzzles so
+10:17:58 if even after years of studying it. So, just just keep trying, but the easiest way for me to think about probabilities, is to think about the frequencies approach, and if you're from a base in camp.
+10:18:12 Sorry, but I feel like this is went to think about events in space of possibilities just to think about what would happen if I repeat, an event, an infinite amount of times.
+10:18:23 So for example if I want to compute.
+10:18:26 If I want to understand the probability of an event happening, let's say I have a coin, and I want to understand the probability of heads of the coin, coming up heads, as it's useful for me to think about repeating that event that experiment, many, many
+10:18:42 times and then just counting how many times out of all times, kids come comes up.
+10:18:51 Okay, so I'm not gonna.
+10:18:55 Now, we don't really need this this much theory for probably is more like when you are dealing with perhaps with with statistical more heavy statistical learning based in learning, you might want to learn about these things about self theory but just
+10:19:15 think about probably do is just a mathematical construct to represent uncertainty and he has certain actions that you can use to derive all the properties of probabilities.
+10:19:32 Okay, so I'm gonna.
+10:19:35 So let's do this, do this this example and by let me know. I'll do it here on the screen so let's assume, let's let's think about the following experiment that I talked to, to die to have
+10:19:52 dices, although you have to say die.
+10:19:55 So you have six sides and each of them is equally probable. So let's say I asked you about the probability that some of the to die, it comes up to be four.
+10:20:09 Guess where you throw two things that have six faces.
+10:20:10 And you you you will do the summation of the outcomes of those faces. And I want to estimate what is the probability that I have for. So the easiest way of doing this is of course to think about just listing all possible combinations of things so.
+10:20:25 So we have to each dice have six faces so we have two of them so we have 36 possible outcomes in our, in our experiments to six times six.
+10:20:37 And you can just list all of them and here you don't have everything because it doesn't fit on the screen. Oh no it's okay great so useless everything.
+10:20:45 And what I will do I will add a column that represents what I want, which is a summation of the outcomes and I will just, I will say, I want to say I want to see how many times I have a four, so I have a four one time, two, three.
+10:21:00 That's it. So the probability of this event is basically three over the 36 possibilities.
+10:21:13 Okay so random variables are a way of representing events in the, in the, in the real world. Sorry, it's a way of taking events in the real world into function space so you can think about, you know, you can say these random variables represent an event
+10:21:38 and you can start thinking about okay what is the probability of this, of this, what are the values of these random variable and you will have attach uncertainty.
+10:21:43 So for example, if you can do the following you can say, Okay, let's say I have the following experiment, and I toss a coin five times so I want to create a random variable that represents the number of kids that I have in that experiment.
+10:21:57 Okay, so these random variable X represents that concept that I just mentioned.
+10:22:04 Okay, so there are two kinds of control random variables discrete random variables and continuous random variables, and as you might guess, this is basically be screwed right random variables you represent
+10:22:19 events that can happen in certain in a certain set that you can count. So you have a countable number of events that you can index basically so you can assign a probability to each of them, and the constraint of probability is that you some all possible
+10:22:35 events countable events you will get one.
+10:22:40 The total probability will be 100%.
+10:22:44 So coin pricing is an example or script variable you can represent the probability of cats for example with the script random variable, counting.
+10:22:55 If you're let's say counting citations that also will be a discrete random variable.
+10:23:02 Could be, you know, zero to infinity, let's say, a very big number.
+10:23:09 I'm going to skip some of these Now, sometimes you want to represent uncertainty about continuous random variable so variables that contained values in any area of the real line.
+10:23:20 So, to think about problems in that space. In that sense, you have to think about slices of the curve, rather than specific values, guess what, it is not really correct to say let's say we have a continuous random variables to say, what is the probability
+10:23:34 of a certain value, you have to think about the probabilities of a range of values, okay because the probability of one value is exactly zero because if there is, there is no area under it.
+10:23:45 So it's really more like a density probability. That's the proper name that that we give it.
+10:23:53 Okay, so I'm going to skip some of these now the most obvious and famous.
+10:23:59 Probably distribution there is continuously 6000 distribution and use the form in one dimension, and he has two parameters.
+10:24:21 He has a mean and standard deviation, and here I'm showing different examples with different means the mean, the parameter of new represents the mean as it represents the point at which you have the most likelihood of event happening, and association
+10:24:15 represents how how wide, how much broader the covers. Now because they probably has to sum up to one so if I integrate all possible values from minus infinity to infinity because there has to be one.
+10:24:36 If I increase the Sunday creation, then I have to lower the curve.
+10:24:40 So I don't have so much likelihood for the mean, but I have now, I have to spread, basically the likelihood across the real line.
+10:24:53 Ok.
+10:24:57 So, Florida lot of the things that will do is this single learning, we want to understand the Irish error that we expect to see in a function.
+10:25:05 Okay, so we will represent our learning as a distribution as will receive data.
+10:25:15 And we will learn about that data and want to see what is the average error that we expect to see in that learning process, and as a function want to understand as a function of the data that we have as a function of the noise as a function of the complexity
+10:25:29 of the model that we're using.
+10:25:31 So expectation is that really crucial concept, in this case.
+10:25:36 Now, the way of thinking about expectations. To me the simplest is just to think about a fancy average okay so if you think about if you take the average of several numbers, you add them all up and divide by the number of elements that you have.
+10:25:51 Well, in the statistics, you can have now elements that have different values like different probably disorder, so you can have, you still can have the same list but you can attach different priorities to them.
+10:26:02 So the way to compute the this fancy average or statistics, or expectations or if you just take the values of your elements and just multiply them by the probability that they happen.
+10:26:16 So you can have now a differential application of your values and everything falls down from there so variance.
+10:26:27 Could tosses all the higher moments as as they are calling statistics there just a result of the applicant of the expectation of some function.
+10:26:38 Now sometimes you have multiple variables you know distribution. So, let's see if we are representing the distribution of features that we have from our data set, and the features in our example of citation, we can have a say one one random variable represent
+10:26:57 the number of, let's say the ranking of the journal another random variable represent the prestige of the output and another could represent the prestige of the affiliation of the author, so we can represent a three dimensional data set, as a distribution.
+10:27:14 If you have the joint distribution so there's division of all the variables you can compute the distribution of a particular variable by simply averaging the joint distribution over the values of that variable that you don't want.
+10:27:33 In conditioning and conditioner solution if you know something about something else. And we'll see these with learning, you can think about condition and your probability by applying this operation.
+10:27:47 So you just take the joint distribution and you kind of re normalize it by assuming that you already know, part of the space of events.
+10:27:58 If you have independent events you multiply the independent. The Independent probabilities, so the joint distribution gets simplified, a lot.
+10:28:10 And that will be the end of this so let's do a little activity, after all of these this activity. One really take too much.
+10:28:22 Too many of the more advanced concepts but I'll try to make it more intuitive. Okay, so this is the activity that I wanted to work on.
+10:28:30 So let's assume you have these games someone who proposed this game to you and you want to see if it's worth planes game. So the game is as follows.
+10:28:39 You have three coins. This assume they're fair coins so they probably have had this 50, or 50%, and the game is as follows you are going to be paid $1, you will throw three coins and you will get a pink, you pay $1 for each head.
+10:28:56 Okay.
+10:28:56 But if you get all tails. You will have to pay the person who you're playing against 10 bucks.
+10:29:05 Okay, So the question is, is this game worth playing.
+10:29:10 Okay, so the easiest way to think about this is to simply just list all possible events and think about what is the expected.
+10:29:19 What is the expected value of playing this game what basically, what are the, the expectation of the gains, minus the losses of this game game so let's let's do again breakout room.
+10:29:38 And I will just recreate it because it's better to, to see other faces. Now you will be able to move around. So, Let's have 10 minutes to think about this problem.
+10:29:51 Any questions about this problem.
+10:30:00 Okay, so let's go 901 liner Yes.
+10:30:07 Okay, I'm gonna leave this open here on the screen so you can see.
+10:30:12 Worth means like if it's if you're going to make more money than lose money. Okay, so the expectation basically you want to compute.
+10:30:22 Now we're not factoring the, the fun of playing this game so it's the game minus the losses.
+10:30:37 Yes, yes I mean that's a good point I guess that you're playing this game so you your pay $1, and you have to pay, $10 to the other person.
+10:42:55 OK, so the the the G minus L, we you know 322120, I'm going to record, sorry.
+10:43:15 And it will record
+10:43:14 continues to work out a great one.
+10:43:19 One minus 10.
+10:43:22 So, each of these events is equally probable so I have one over eight probability for each of them.
+10:43:29 So, the definition of expectation.
+10:43:34 Have this dysfunction that will call g minus L.
+10:43:37 I'll just summit. So, you will take what the probability of the event so the first event is one over eight. The function is GL so that's three.
+10:43:48 And then the second event event is this one that has the same probability times too and so on and so forth. So you can think you can see that Deanna can just factor that.
+10:44:00 And I have three one time to three times so two, three times.
+10:44:11 to.
+10:44:11 And then three times one.
+10:44:15 And then one time understand.
+10:44:18 And then we have three so is we six.
+10:44:22 So three, so that's nine already and this is 12.
+10:44:26 So I have 12 minus 10, that's positive. Excellent. So their game is worth playing.
+10:44:33 Yes, exactly. I'll thank you.
+10:44:37 Okay, great.
+10:44:45 Um,
+10:44:43 okay so
+10:44:49 I guess we can take a look a little break.
+10:44:51 Okay, so let's say, like, a five minute break.
+10:44:57 So that I can, I can so that we can, you know, a human welcome biology, biological break, let's do that.
+10:50:32 Alright, welcome back everybody, I'm gonna restart the recording.
+10:50:38 Okay, so now we're going to get into statistical learning.
+10:50:46 And I might move a little faster if that's possible.
+10:50:56 Alright so we're just going to start right off by trying to define what learning means I my favorite definition of learning is from, from the, he's the head of the machine learning department in Carnegie Mellon, and he says that learning is basically
+10:51:15 using experience to improve future performance that's a very mature learning definition but basically you can think of these saying okay you the experience that you have is data.
+10:51:27 The future is data that you have not seen, and performance is some way of defining what is what is good. What is a good.
+10:51:37 What will be a good error, how do you measure the mistakes that you're making. So you want to lower that in the future. So, hopefully, the more data you have, the more you learn and less mistakes you make.
+10:51:51 One of the challenges for when you're doing machine learning models when you're creating them and evaluating them is to know when you have extracted as much as possible from the data without risking basically learning from the noise from things that are
+10:52:07 not really related to the outcome.
+10:52:10 So, If you read the book on the statistical learning that I suggested the elements was the typical learning or introduction to statistical statistical learning, maybe find it very simply just techniques for doing supervised or unsupervised learning from
+10:52:31 the data. Very straightforward definition.
+10:52:34 Now, I will start by by thinking about supervised learning. Okay, so in supervised learning. You have input features predictors independent variables, whatever you want to call it that are related somehow with an output label response and dependent variable,
+10:52:54 variable, and you want to establish you want to learn a relationship between the two. So that when you see new features in the future you can apply that relationship and predict or estimate what the output should be for that set of features.
+10:53:10 Now usually because, well, not usually I mean you have basically a supervision so basically you know what the outcome outcome to be outcome should be for set of features.
+10:53:27 So, it's relatively easy to say okay I'm going to measure the kinds of mistakes that are making by measuring the stem, the square error or the absolute mistake that I'm making or something like that.
+10:53:37 You can define just arbitrary different last functions or error functions.
+10:53:43 But in unsupervised learning, the only thing that you have is the feature so you don't have an output you will know how to relate those features with an output so it's a much more complex setting.
+10:53:58 And, if anything, the next frontier of machine learning, I will say an artificial intelligence is to develop develop better methods to make sense of data and that means unsupervised learning, most of the data is unsold rice.
+10:54:12 For now we'll focus on supervising simpler to analyze and understand.
+10:54:16 So,
+10:54:21 my, you know, open flow switch, ISIS.
+10:54:26 So, uh, we miss your features, I want to predict an output. Guess we will like to identify what are the features and outputs in any of the examples that we see.
+10:54:43 And, and so here. Here's one example I won't ask you, but I'm going to kind of make the example myself in my head. But let's say we want to predict. We want to establish a relationship between the citations of a paper in two years, based on our journal
+10:54:58 affiliation ranking, that's the problem that I was talking to you about before.
+10:55:03 So the features in this first problem are.
+10:55:10 This elements here, so the author journal and affiliation rankings. So basically you have three features, and you want to learn or predict and associate those with the outcome and the outcome is the citations that that paper will receive in two years.
+10:55:28 And you immediately can say start thinking about what kind of problems is because citations you know it's a countable number. So you can think of a number of ways of doing this but this sounds like a kind of regression problem.
+10:55:44 You can have something similar. So, these days is very appropriate to not just think so much about citations but maybe think about papers that are outstanding that stand out of compared to other papers for example to hit papers that break certain threshold
+10:56:03 of citations.
+10:56:04 So maybe you want to predict whether people will will be a hit. So based on the same factors, the also journal affiliation, you, you might want to make that prediction so how can we learn that.
+10:56:17 Now this problem is, is a little different in that the outcome of this
+10:56:24 problem is binary, so is whether you break 50 citations, or not. So, you only have two outcomes.
+10:56:35 Sometimes you have other more like seemingly impossible tasks such as, let's say predicting the key phrases associated with, with the publication's based on an abstract, have a publication.
+10:56:50 So this is a little more complicated in the sense that, let's say you have an abstract paper from, from PubMed.
+10:56:58 And in PubMed each paper has associated generally a set of terms, Nicole MeSH terms, and maybe you want to give it a new paper you want to predict what the MeSH terms should be.
+10:57:11 So you have all the papers that have been published before.
+10:57:14 And you can say, Well, I'm going to take those papers I'm going to somehow process the abstract, and I'm going to predict. I'm going to establish a relationship between the text from the abstract and the MeSH terms, when people have done this, but it's
+10:57:27 it's not so clear how you will transform text from the abstract.
+10:57:31 And then how you will predict MeSH terms, you know, could be variable sometimes no mess terms I think sometimes you have five minutes. So it's a variable.
+10:57:40 So these are all forms of supervised learning.
+10:57:44 And then, the way that we will think about these is simply by trying to learn a function or, assuming that there is a function out there, mapping things from feature space into an outer space.
+10:57:58 Guess what you have a feature space will be the say the ranking of the journal ALS or an institution, and the output space will be the citation so the function will take elements from here.
+10:58:10 Each point here will be this three dimensional element objects, and you will map it into our jobs we want to learn this function.
+10:58:25 Now when you have the, the other problem to predict in the hit the papers or make this smaller works.
+10:58:33 The outcome is a little bit simpler, it's a little bit simpler, that you just have two outcomes, get there or know that you have two discrete outcomes.
+10:58:41 So it's a different type of problem.
+10:58:43 So, the previous problem, where you have like a continuous space of outcomes. This is usually called a regression problem.
+10:58:51 And in this problem where you have a discrete set of outcomes. This is usually call a classification type of problem, but, but they are both supervised learning.
+10:59:02 Okay, so I have laid out on this and I will work with this data set on citations I use my to compute these so I have a set of papers, and I have the citations of this stuff two years, I have the ranking of the ranking of the affiliation, and the ranking
+10:59:18 of the journal. This is how the the plot of that data looks like okay so now these ranking comes from my so the estimated using while they're using citation so they're using I think the network citations are within hours to estimate and I've got a citations
+10:59:45 from affiliations and journals. So it's some sort of like an Eigen value of the.
+10:59:48 It's like a PageRank sorry of the, which I guess kind of the same, so page rank of the, of the house or or journal or institution in the citation network.
+11:00:00 OK, so the way that we will think about these statistical learning will say, okay, so we want to learn this want to learn this relationship.
+11:00:09 And what we do is we say we will assume that this data is coming from a distribution.
+11:00:18 Okay, so we observe these pairs of X and Y pairs of features about the paper, and why which is the citation in two years.
+11:00:28 And we with this with this notation here I'm saying it's this pairs are being sample independently from a distribution.
+11:00:37 So every time I have a data point.
+11:00:40 We think about it in terms of were sampling from the solution.
+11:00:44 It's a random process.
+11:00:47 Now the problem of course is that we don't know the distribution and we knew it then we wouldn't be a research question right so we will not do the submission so we need to we need to think about this and we need to do a fire number of simplifications
+11:01:02 for this.
+11:01:08 this.
+11:01:09 So the. The first idea is that we'll think about this.
+11:01:14 We will assume that the prediction of citations so any any regression has the following four.
+11:01:21 We it's assuming the statistical learning that we have.
+11:01:29 We have Yeah, thank you for sharing that article, there probably tons of papers, trying to do this and so it's it's a very still a very active area of research that could be a project too.
+11:01:43 So we're going to assume that there is a relationship between the features that we measure, and these are function the maps that.
+11:01:51 But then when we measured the data, what because we're sampling, we're going to assume that there is some nice some intrinsic noise that has been added to the process.
+11:02:01 So it's as if we have the measures of the German journal.
+11:02:05 And then because we are predicting two years ahead.
+11:02:08 Right.
+11:02:10 There is some noise, you know the, you know, call me It happened and everybody goes into college research and we lose you know interesting research area so these noise will be all kinds of things could be, you know, related to a system related to how
+11:02:24 we measure things.
+11:02:26 So, multiple sources of no noise was perturb what we observe, so in reality we assume that we don't really observe the real function, f, but rather we observe the function f, after it some noises added to it.
+11:02:45 Okay, now importantly we assume that the noise is unbias in the sense that if we take the mean of this noise term here, that means zero so if we get to observe the same set of features many many times and then we're taking the average.
+11:02:59 We are expecting that that average will be around the same, so all the points are going to be very similar.
+11:03:08 We also assume that this error term is uncorrelated with the features that we measure okay so these are uncorrelated errors. And this is an assumption that is not not always true but we're just making simply simplifications to understand what happened,
+11:03:29 what happened when you aren't we analyze the errors that we make.
+11:03:31 So, there are two main reasons of why we want to estimate this function, f, and its logistical terms.
+11:03:40 This is the words that they use but in a I use different words. So in a statistical terms they say, well the first one they try to understand this function one day at once they estimated they can make predictions.
+11:03:53 So if you understand the relationship between the factors about the paper on the citations. You can take a new paper and you can make a prediction about that paper that you've never seen before I'm perhaps the features you've never seen before, but because
+11:04:05 because you have the function you will make predictions.
+11:04:08 Okay, so one factor is predictions. And in that realm you care about the arrows. Oops, the errors that you're making, how much errors, what is it what is the range of errors are you making the best possible predictions you want to kind of play that game
+11:04:24 of minimizing that to the lowest possible value.
+11:04:31 This is also.
+11:04:35 So it's very it's very practically useful.
+11:04:38 But there is another sense in innocence physical learning and AI, and that's the problem of inference we want to understand what this function means. Okay.
+11:04:42 and that can be different. So sometimes you want to make predictions that are really good so you want to predict citations for example, but you don't care too much about inference you don't care about understanding why these relationships happens, you
+11:05:02 don't care about explaining to someone on rainy and paper just one to two, you want to make the best possible prediction.
+11:05:11 But if you care about influence you want to interpret the results that you get. And, and here's where there are differences across approaches.
+11:05:19 Some approaches and much more straightforward to interpret and to influence with such as linear, the techniques you can just look at the weights in the prediction and you can make estimations.
+11:05:36 You can make interpretations. But there are other techniques that are much more obscure such as live learning where it's really hard to connect the inputs, with the outputs, so.
+11:05:47 So there is this trade off between having a simple model versus a more complicated model.
+11:05:54 However, if you have a more complicated model.
+11:05:57 You have the ability, you have a budget to afford much more data. So that's why deep learning so popular these days because you can improve the performance significantly if you have enough data.
+11:06:09 And you can constrain the model and the degrees of freedom that he has to make better predictions. So you have this continuum that and I will, I will show you a graph that shows.
+11:06:20 Basically, you know, linear models are here, the predictions are not that great, but the inference is great, whereas deep learning is all the way on the other side, but it shows are amazing but inference explore.
+11:06:36 Okay, so this is the way that we will we will think about this problem. And what I want to do I want to, I want you to think about how we evaluate how well we're doing this, this prediction.
+11:06:47 OK, so again we will assume that our true function is as follows We have our observations. And we have a function that we never get to observe that passes through.
+11:07:00 I think all disciplines are course healing Someone is asking, which disciplines of core in mind, and all disciplines are color.
+11:07:09 And then you have some nice and but then you want to make an estimation you want to estimate that if you don't care about the noise you only care about that, if you want to approximate it as close as possible.
+11:07:19 So we will be learning different functions of this form different estimations and this will be again regression deep learning, doesn't matter. This theory applies to everything.
+11:07:29 Now one simple way of thinking about errors, is just taking the actual value, while the value that we have from our data and subtract our estimation our prediction and square that.
+11:07:46 Okay, so this is a very very straightforward way of trying to measure error, the square Earth.
+11:07:49 So if we do this and we do some some math that I won't go into but basically this is a, if you understand more, a little bit more advanced estimation, expectation operations, you will realize that at the end, if you do this this estimation of the error,
+11:08:05 you will get the following expression that is very important to understand.
+11:08:09 So, the error that you will have in your model is going is going to be a combination of two things.
+11:08:17 You can see it right here, it's going to be a combination between how close, you're gonna get to the real function.
+11:08:26 Okay so this how close the hat will get to real function.
+11:08:30 So that's an expectation.
+11:08:32 Plus, the variance of the nice.
+11:08:45 Okay so again let me repeat the error that you're going to, you're going to see in your model are going to be a combination of things that you can have control under, you have the control of deciding which function is this so there is some co given an
+11:08:52 off the enough computational resources they will you will get to approximate dysfunction as close as possible.
+11:08:59 But you will never be able to reduce the noise here because this noise is unrelated to the data so there's no way you will learn about anything. And it makes sense.
+11:09:09 Think about trying to predict citations in two years. There are things that can happen in two years that you have no control under. And that's what this expression is representing AI, machine learning business so this is called reusable variance, this
+11:09:23 term right here, and this is called irreducible variance this term right here.
+11:09:27 So in the last couple of lectures, or lecture, we're going to look at ways in which you can understand whether you are, you have any hope of reducing these earlier.
+11:09:41 model, get more data, get more clever and get GPUs and and all kinds of things to reduce the error or you just hit it, hit the, the, the most efficient way of making predictions.
+11:10:01 Alright so,
+11:10:05 so we have prediction, we want to reduce the error as much as possible. Let's move now on to why we want to estimate it to influence part of things. Okay, so sometimes want to estimate Africa's we want to understand what's going on when to say okay, the
+11:10:21 okay, the ranking of the journalists is higher than the means that we're going to get higher.
+11:10:28 Well in this case ranking you know lower ranking lower numbers means more prestigious journals in the marketplace so you would expect to see a relationship that will look something like this, where you get to observe this these points.
+11:10:42 These are the observations, but you can imagine this is not real but you can imagine that could be like a real function that you don't get to observe that govern this relationship, and the function, cook this blue line here, and maybe your estimation
+11:11:09 really poor it's just a line with red. The red line could be your estimation your efforts, but you can still use these to say, well, the higher the ranking, the lower the citations you're expecting.
+11:11:08 Okay, so you want to estimate things.
+11:11:12 And how do you estimate it well that's, you will just, will you will propose a model, you will say, could be a linear model could be a deep neural network, and you will estimate the parameters of that model so that you fit the training data as close as
+11:11:25 possible, so I'm going to kind of skip this a little bit.
+11:11:29 This is more theory about how you estimate the parameters, you don't need to worry about it too much.
+11:11:36 Most of the techniques that we see in the while use more of a frequency to frequencies approach where you say okay this is a, This is the parameter set of parameters that predict the best.
+11:11:48 But there is another approach called the basic approach where you have a distribution of parameters.
+11:11:55 Okay, so we can we can look at a very very simple example we want to just understand this region of citation so this distribution of citation for the data that I was showing you.
+11:12:05 Can we can say okay let's assume that this is a Gaussian distribution is a very poor approximation because the Gaussian distribution has two tails, but citations account random variable so it's not the greatest approximation.
+11:12:17 But you can immediately see if we approximate the citations, with a Gaussian distribution that we want to put the, the highest possible value on top of the of the pic of the citation distribution and maybe make it that the covers it solely maximizes the
+11:12:39 likelihood of observing the data.
+11:12:39 So you can you can do the math, and you can see that, you know the solution at the end will be relatively straightforward, I want I want to hear, but because also this problem is not very interesting, but we're really interested in is releasing some features
+11:12:53 that we observe x with the citations. So, the way that regression does is by saying, we're going to have a linear function.
+11:13:03 We're going to have a linear function so I will take my features and I will multiply each of them by a by a value and then we'll add calcium noise in the prediction let's assumption that I make.
+11:13:13 Okay.
+11:13:14 So you make that assumption, then you get solutions such as this. So to find the best possible parameters you have to the solution that is a standard well known form to get the, the, the parameters that will minimize the error the square error in your
+11:13:51 So, if you add all those square errors, and you take the average that's called the main square error.
+11:14:00 And so, we, we can propose up this our estimation is our model we don't know if it's linear not probably is not linear, but we can we can make this this assumption and ask their psychic learn or another package to find this parameter for us by myself.
+11:14:21 Okay, so it turns out that the actual device parameters are this okay so this is based on my have the other notebook that does this. So, the best parameters that he found was you know you predict that the best possible ranking will produce 100 citations,
+11:14:36 on average of the two years.
+11:14:39 And then he will go down by 0.005. And you can see that there are like 20,000, journals, so if a linear decay, well nonlinear decay we're assuming that is a linear decay base that you can see the actual data is much more complicated.
+11:14:58 Okay so, so that's regression now classification is this the same idea you can assume I'm going to skip this, you can assume that instead of being a Gaussian distribution as an outcome you can assume that he's another distribution that has just described
+11:15:13 outcomes and for aggregation. Sorry for classification such as this one the hit paper classification you can assume that the outcome you said distribution known as the granola distribution.
+11:15:24 Okay, so this is, this is the data from trying to relate the ranking of the author. Again, these these ranking is based on a page rank kind of ranking that mark is applying, and whether the paper will be highly cited as you can see, you know, I live on
+11:15:43 on clear, like, because the data is all over the place. Most of the papers of course are not highly cited.
+11:15:51 And these quite an overlap, based on the ranking of the author, but it seems that, if you think you kind of look at it carefully maybe maybe some relationship there.
+11:16:03 Okay, so. So, this is the, the graph that I was wanting to show you, like if you look at the regression, a linear regression and logistic regression, those models are relatively easy to interpret and they don't have a lot of flexibility and not very accurate.
+11:16:20 accurate. If you compare it to more complicated models. So if you move into more complicated models such as bargain ghosting if you have here a random forest green boosting.
+11:16:29 Those are much more complicated models that can fit very complicated functions, but they have.
+11:16:36 But they are not very interoperable so it's really hard to tell you know the relationship.
+11:16:43 Yeah, it's not based on theory this is just made up from the authors of the book.
+11:16:51 and the learning will be even more flexible and either less interoperable.
+11:16:53 In fact that is an entire field called fairness in AI and enhance and vision, excuse me, we'll talk about some of his research on interpreting deep learning box and it's quite quality difficult people are struggling, as you know, these models can make
+11:17:08 biases and it's really really hard to detect them.
+11:17:13 Okay, so as far as learning is much more complicated because you don't have a relationship between a feature and an outcome. So what people you can think of as far as learning is trying to just learn an intermediate space where you can represent the data
+11:17:28 more compact Lee and we'll see a couple of those examples we PCA glassing topic modeling.
+11:17:37 Okay so, so let's do an activity, and the activity will be relatively simple because it was a lot of a theory and things like that. Definitely go back to it.
+11:17:48 But I want you to think about supervised and unsupervised problems in science of science and think about three problems in science of science that require different kinds of predictions and influences.
+11:18:02 So remember that predictions is our problems in with you care about how little mistakes you're making.
+11:18:08 But because there is this fundamental trade off the more you care about the errors, the more you want to minimize the errors. The last interpret will your solutions are going to be.
+11:18:17 So there is this intrinsic conflict between the two things. So there are some set of problems that require really really good predictions, but you don't care so much about what they mean.
+11:18:27 There are problems that you really care about what they mean and you don't care too much about the quality of your prediction. And there are problems where you care about both of course you will like always to have these but why don't you discuss with
+11:18:42 your breakout room team.
+11:18:46 These, these problems and then we can share.
+11:18:49 Any questions before that.
+11:18:56 Okay,
+11:25:39 What about answers to question number one, think of a supervised and unsupervised.
+11:25:51 The problems in the science of science will be an example of a supervised problem
+11:25:56 will be an example of a super rice problem.
+11:26:07 Okay, David says and supervise recommender systems.
+11:26:12 As a question.
+11:26:14 Interesting.
+11:26:17 What will be a recommender system.
+11:26:20 field delineation right
+11:26:25 OCR can be supervise
+11:26:33 supervisors topic modeling.
+11:26:40 Okay, so let's take this examples now and supervise now recommend supervised and unsupervised means that you don't have an outcome that you want to predict.
+11:26:51 So in recommender systems. Do you think that's happening.
+11:26:58 Unclear because the Savior and Amazon on Amazon, like they they use.
+11:27:05 They use your previous purchase purchase information to recommend papers, use mag or you use against if you use the mantis color. I think that keep track of what you liked before.
+11:27:21 So they are trying, it's like a semi supervised approach
+11:27:28 OCR can be supervised right because you, you can have, let's say an image.
+11:27:33 And you might have someone a human who annotated it so you know what I mean at least the human level performance of what the characters should be where, what are the words and you can try to learn a mapping between the image the pixels, and those characters
+11:27:50 predicting the novelty of a paper supervise.
+11:27:53 Yeah. Now, to make it supervised make the novelty that's very interesting to make it to provide you will need kind of someone to tell you that the paper is novel and maybe find that relationship.
+11:28:05 That's one way or the other is like what and but the common thing which people do it in all the addiction is in unsupervised manner to just learn that.
+11:28:15 Okay, I'm going to just compute something that is like outside the standard distribution of things.
+11:28:22 So it's like an indirect way of measuring things.
+11:28:27 Yeah recommend this this can be reinforcement learning to yeah
+11:28:33 plastering outsource yeah that sounds supervised now topic modeling someone mentioned topic models that's usually consider unsupervised in the sense that you don't really know what the topics of the papers are most of the time you don't really know unless
+11:28:47 you have maybe a specific specific data set where people have cluster papers into topics, or ideas into topics beforehand and you've tried to reproduce that.
+11:28:58 But generally speaking you just trying to cluster you don't really have ground truth, way of knowing what the right cluster is
+11:29:09 predicting regional citation. Yeah, supervise with annotation from experts Yeah, that will be interesting if you have a data set on that, that will be awesome to have.
+11:29:22 Okay, what about the next.
+11:29:25 Now I'm interested in hearing, not prediction and inference, like caring about those two things this is obvious everybody wants to have excellent performance and have excellent interoperability and influence so this is not that challenging.
+11:29:39 I'm interested in knowing examples where you think this is this is the fundamental. This is the of the utmost importance, which problems in science of science our prediction, but you don't care so much about influence.
+11:29:55 Topic modeling.
+11:30:02 Okay.
+11:30:10 recommender systems.
+11:30:12 Most n o p.
+11:30:24 Um,
+11:30:27 yeah so so to have prediction you have, you need to have a way of measuring performance I usually means supervise, I don't know about topic modeling because in topic modeling.
+11:30:38 I don't know which kinds of things.
+11:30:41 You are thinking about below, but usually in topic models.
+11:30:50 You want to interpret things very well you want to you have texts, and you want to understand what those texts are saying unclear how to measure performance because unless you have supervised later.
+11:31:05 Breaking topping over time, right
+11:31:16 now we don't care. I mean, in science of science, I would say that this is not really the ideal case, we don't really have a problem. Let's say we're trying to understand citations.
+11:31:29 Yeah, you might care about you know you want to make the best possible prediction but what's really perhaps more impactful, is to think about to know why something's happening but influence science.
+11:31:40 So, I will say people.
+11:31:42 I mean I've seen paper using this type deep learning for prediction citations or something like that.
+11:31:48 But for the most part, when you're doing analysis you want to have like model that are interoperable you want to understand what's happening so I would say, We care a lot about things like these in France.
+11:32:06 We don't care too much about prediction, I would say, disintermediation is a very tough problem.
+11:32:13 I would say we probably want, we probably want the highest possible performance in this simulation.
+11:32:19 We don't care too much about how it's doing it right, I guess.
+11:32:29 Okay.
+11:32:35 Okay, so let's move on to actual things so actual calls. Okay, so.
+11:32:45 So I'm going to go to this notebook, and I'm going to quickly go through this, because
+11:32:52 time is not.
+11:32:54 I want to get through to Super, cross, cross pollination.
+11:32:59 Okay so interaction to secular so the steps that I talked about before like having the, the idea of having features outcomes of having models that you want to propose, and you want to
+11:33:14 use data to fit all of those concepts fit into the package psychic learn and, and Cyclone is basically a package for machine learning in Python.
+11:33:28 It's not so much about statistical analysis but it's more about, you know, machine learning which you you care about evaluating the performance of the, of the methods, but not, it doesn't have like statistical tests and things like that so it's a little
+11:33:43 more on that side.
+11:33:47 I have some examples here.
+11:33:52 So I have the, the, the data sets of flowers and have fun. By the way, I took this from from the book from, Jake.
+11:34:06 So, but I think it is nicely to explain how cycling works so most of the methods inside learn are supervised learning but he has some unsupervised So, but I will take a look at both here, this quickly go through them.
+11:34:23 So, most of them are going to receive a matrix of numbers. Okay so similar to what we saw in the, in the,
+11:34:36 in the kind of theory slides where you have a matrix, the roles are the samples, and the columns are the features. So again if we wouldn't be told my example if we're predicting citations will have three columns, where we have you know the ranking of
+11:34:53 the journal the ranking of the author and the ranking of institution, and the target vector will be, will be the citation in two years. Okay, so you, you want to have four forsaken learn to non pie arrays to represent these.
+11:35:09 Okay.
+11:35:10 Now sometimes, and for the little homework, I don't know what to call it but the little exercise I will do after the break.
+11:35:18 We don't have the features in Empire rate format so we'll, we'll look at text analysis so what we have to do. We have to do something called feature engineering from transform tax into numbers, and then we can pass them through the traditional analysis
+11:35:38 and.
+11:35:41 All right, so the idea of cycling is very very simple you have different sub packages sub models sub modules that allow you to fit classification regression supervised and unsupervised learning problems and allows you to compute the errors that you're
+11:36:01 making what is the, let's say the average mean, the average square error.
+11:36:06 And it also allows you to evaluate your models but we'll see that in the next session where you compare models with different performances, guess what, I'm going to import here.
+11:36:19 I have clustering model selection. It also has some data sets.
+11:36:26 unsupervised learning feature engineering selection so I'm going to create a fake data set here, which is a very basic kind of regression we have excellent we have some nice and want to learn a progression here okay so to do that is very simple.
+11:36:43 Okay, so I'm going to import from linear models from the linear model module, the linear regression class.
+11:36:56 And the way that it will work and all the, all of the methods in cycling work the same way. Okay, I will first define the model. I will say, I'm going to define my little model, he has these three parameters that I want to find based on the data.
+11:37:09 And here, when I define the model I can define, I can provide several parameters ok so again if I press and execute display how it if I press Shift Enter, you can see all the parameters available.
+11:37:23 So fit intercept, it will assume an intercept, and you should always do that unless you normalize data and somehow.
+11:37:32 And this this will just apply the standard way of finding the parameters.
+11:37:41 And it's very, very simple.
+11:37:43 And you can see now there are other more sophisticated kinds of regressions with regular sessions we won't get into that here is just the vanilla regression so now you find them all.
+11:37:56 And I have my features. Okay. So these are the features that are represented this so i is just one feature which is the x axis and I put it in this command here just makes it into a matrix where they only have one column from that I have the way I want
+11:38:16 to try to predict, and all the methods work the same, I have the model I refine it and then they fit the date.
+11:38:25 Okay. It's shift up to someone is asking how did I make it to show the, the help, you have to press shift that you have to be inside the parentheses.
+11:38:36 And he will show you that now if you press in multiple times there will be multiple, you will cycle through multiple things so firstly will show like this, the second time will show that the third time we will show like that and the fourth time will show
+11:38:46 show it look a little silly but that's right so if I fit the data it will fit this data here so the features I will try to relate the features with the outcomes.
+11:38:58 So I run very fast.
+11:39:01 And then I can access one fifth, it will have the parameters learn inside. And depending on the message that you are using, you will have different ways of accessing those, those parameters.
+11:39:12 Okay so here in linear rationalist course means the parameters of your regression so basically I'm going to kind of on the fly here make. We are creating a method where you have an intercept, you have the weights of, in this case, x.
+11:39:32 So, you are estimating be one that is really to disagree efficient of the features so this is related, is the coefficient of only one feature so that's be one.
+11:39:44 And then the into x is the intercept, you have to use a different object inside the model.
+11:39:50 Okay, so at the end the model will be, you know, minus point 09 plus 1.9.
+11:39:58 Now what's cool about these is I can make predictions I continue model.
+11:40:02 And I can predict.
+11:40:06 I can pass here. You know, one data point let's say, let's say, let's say eight okay so if I if I put it here, hopefully will predict something like 15, if my eyes won't confusing me, so if I could, eight as input issue predict 15, let's see if that works.
+11:40:26 So I'm going to pass eight analytics 14.9, I was pretty close.
+11:40:32 I bowling, all those works.
+11:40:38 Now you can run other kinds of analysis like like classification so.
+11:40:43 But when you do an analysis of real data says you want to do cross validation so you want to train on a, on a data set that you want to see how well is that on data that you have never seen before.
+11:40:55 Okay, so there's some functionality for doing that splitting you can pass the data to these function tests, a train test splits and it split the data randomly into pieces, and I'm going to play a method that is not regression, logistic regression, or
+11:41:12 classification Navy base.
+11:41:16 I fit it to the training data and I'm predicting the, the testing data and I'm then cycling or has these math way of computing the accuracy and it has many, many other measures of performance.
+11:41:30 OK, so again if I press to top.
+11:41:43 things.
+11:41:46 Um, you have unsupervised learning to so PCA is one of the most common ones is a linear, the composition of the features.
+11:41:55 So, the iris has how many features has four features. And we want to display it so we want to map those features into two features so that we can plot it on a plot, and as you can see, it's kind of separating the.
+11:42:12 They found that one dimension should separate them very well but the other mission doesn't help too much. There's a very top.
+11:42:24 From the clustering so this does the clustering mixture models.
+11:42:29 Just kind of came means.
+11:42:34 And it did a pretty good job, so that if hear some noise or even, this is completely unsupervised, and he was able to score. These three clusters.
+11:42:45 And I think we cluster. While we cluster all the features but then when we plug them we plug them in the PCI space is yes me sorry.
+11:42:56 Okay handwritten numbers we probably are familiar with this example
+11:43:03 is called split well I guess it was always playing it.
+11:43:07 These are very nice blood to show.
+11:43:10 So, you're probably familiar with this so I have an image basically I have a eight by eight grayscale image on I want to, and I'm going to have the label of it so I want to take based on a small picture I want to estimate predict classify the number that
+11:43:29 it contains.
+11:43:34 So fit reg ways that Greg.
+11:43:42 I don't know if you're talking to me, Sylvia but I think it's more fit reg yeah I don't know.
+11:43:55 I think it tries to show a regression based I mean I'm just making stuff up but here it seems that he's a linear model and exploring it so if I say true, it will try to fit lines to this.
+11:44:08 Yeah, so I tried to fit line but we've been in one to do that so.
+11:44:15 Okay, so we want to classify these so I will well with this, you can plot them too so I'm going to use a more sophisticated way of doing as well as learning with ISO map.
+11:44:29 And he does a pretty good job at separating the different classes into space. So I sum up, I will one look into it here in this.
+11:44:40 In the summer school but he's a he's a very expensive operation.
+11:44:45 So if your data set is big. This case is just 1800. But if you speak well it might be too much for it, but it does a pretty good job of separating the characters from and so you have to think about this as a base or you have 64 really real numbers basically
+11:45:05 that are the grayscale values of the pixel, and somehow is able to make sense of that and project them into a two dimensional space so it's a pretty nice way of representing the numbers.
+11:45:18 So we can classify them with a base.
+11:45:23 And we can see.
+11:45:26 Unbelievable. Okay, what's going on.
+11:45:33 Okay, why is why let's see.
+11:45:38 Let's do this again.
+11:45:41 Okay, so I think somewhere in here, they some code that is overriding things So, or I messed up somewhere somehow.
+11:45:51 Okay, so I repeated, and I split it and then I applied Gaussian, a base, and I was completely accuracy and I have I have 83% accuracy I can also look at the confusion matrix.
+11:46:08 And you can see that to say, the two there are some Tuesday's confusing with eight.
+11:46:15 For some reason, but for the most part, is making the correct predictions for the numbers.
+11:46:23 All right, so your task, the activity should be relatively simple.
+11:46:31 The cool thing, and the coolest thing about secular and he said they have these awesome websites where you can just go crazy visited try all kinds of of things so you have supervised learning they have all kinds of methods.
+11:46:50 Now they don't have deep learning they don't have kind of more.
+11:47:05 And we will take We'll look at it.
+11:47:07 On Thursday, but, but he has some pretty. And it's relatively fast so Cycling is really really fast for fitness models. So your activity will be to go to the website, and you will look for these methods.
+11:47:22 Okay. Now the cool thing is that you don't need to worry about what this method is because you know that each object in.
+11:47:32 In, psychic learn will have the same structure, you will you will find the model like this.
+11:47:39 You find a model like this and then you fill it to the data. so it's basically almost the same as this.
+11:47:44 And I mean will, it will work. Okay, so you don't need to worry about much.
+11:47:50 So, and then you will apply to this digital data, and you will estimate the error of the, of your classification. Hopefully, Spoiler alert. This Beth of this relative the newer than Gauss the night base so it should be more accurate, hopefully.
+11:48:12 So, the accuracy of night basis 83%, the accuracy of convolution neural networks which the state of the art for this problem, I think is around 96%, so it's pretty good.
+11:48:24 Alright so let's break out again and do this activity. Any questions.
+11:48:40 Alright.
+11:48:45 So I'm going to do a little poll. Okay.
+11:48:50 I count eight ball. okay, kind of.
+11:49:02 So what I want to ask you is, do you want for a given day to meet the same people the same group of people in the breakout room, or do you want to,
+11:49:19 or do you want to meet differences people. So you want me to put you in the same breakout room as the same as the one before or different. So I posted a poll.
+11:49:31 And I am getting the results.
+11:49:36 Okay so, it seems that most of you want to meet other people so that's awesome.
+11:49:44 You aren't the greatest.
+11:49:48 All right.
+11:49:51 Stop the pot. Sorry.
+11:49:51 Let's do the breakout room, I'm going to reassign
+11:49:57 recreate excellence and that should that should work.
+11:50:06 Oh, sorry sorry sorry sorry I messed up.
+11:50:18 I mean more times.
+11:51:14 We're supposed to have yeah sorry I just, I had put just five minutes so wasn't wasn't as smart as it's going to be 10 minutes Okay, okay, thank.
+12:01:23 All right, I want to play too so I'm going to try to do it myself but also I don't think we have the solution to this because I just made it up.
+12:01:38 Oh, but actually it's white people to to get the.
+12:02:17 Alright so we are back. And the question is, was it better or it wasn't worse gradient boosting regression better how much better. I think I'm 95% Wow.
+12:02:36 Amazing, right.
+12:02:41 What do you think about the interpreter ability, this better. Those sevens were predicted to disappear. Ah, cool.
+12:02:56 So this is Gaussian, may be so this is very, very simple.
+12:03:05 The eight. Right.
+12:03:08 To predicted it has eight, right.
+12:03:14 Now this is a,
+12:03:19 this is very green was the trees we won't see them in this summer school but basically you can think of them as.
+12:03:33 It's an ensemble methods. Yes, that's correct. It's a method that is based on boosting ideas that you take a very simple classifier, as a baseball.
+12:03:44 You feed it to the data.
+12:03:46 You see the errors that he makes and then you ask this next classifier also very simple to fix those errors, and then you keep repeating that process a very beautiful idea.
+12:03:56 So, so you at the end you have a combination of sequential set of classic fires, where each of them is correcting the errors of the previous classifier.
+12:04:08 So Sylvia asked if this is like random for us. It isn't like random for us in the sense that he's combining several pacifiers that difference though is that boosting is fixing the.
+12:04:19 Let's say the tree is fixing the mistakes of the JM is one tree.
+12:04:24 Okay, so they have a heavy heavy dependency among the trees, random forests, each of the trees is independent, but each of the trees was praying on different samples of the data.
+12:04:44 So, I mean different samples and different features of the day. So, and they can so Graham random for us can be, it's a little easier to paralyze because you can just distribute the data and fit separately but rainbows things, it's a little harder.
+12:05:00 Um, I think the book The elements mystical learning has those, it's called ensemble methods and he has a section on that.
+12:05:07 And I'd recommend that in the first lecture that I gave, I gave me another first selection of first presentation I give to the morning, I talked about the those books and other resources.
+12:05:18 Alright, so I hope I don't have the solution but it looks like you guys need it so i'm gonna i'm going to upload perhaps the solution here later.
+12:05:30 Okay.
+12:05:33 No, then he said reason.
+12:05:35 Oh, that's the solution. Thank you.
+12:05:40 Right.
+12:05:41 Perfect.
+12:05:42 Now there is a reason why we're seeing what we're seeing like the reason reason why a more complicated model is showing the performance that it's showing, and we will try to
+12:06:00 will try to understand that also from a from a statistical perspective, why this is happening.
+12:06:07 Alright so and the way we will try to think about this is to is to think about
+12:06:14 what happens when we try to generalize the performance of our model.
+12:06:19 Okay, so what, how can we think about the predictions and the errors that will make our classifier. In the future for data that he has never seen.
+12:06:31 We cannot perfectly reproduce that process in the lab, but we can try by up by applying clever splitting of the data and clever validation and you already got a taste of that when you split it into training and validation then but there are other ways
+12:06:47 of doing it.
+12:06:49 Now the reason why an a base, had work performance.
+12:06:56 It is because a base is basically a very simple classifier. So, based on the stuff that will see in this section you will you can, you will be able to tell whether your classifier is not extracting all the information that you might have in your data.
+12:07:15 So in a sense in a base, we can say that it was under feeding the data. Okay, so we hear a lot about overfeeding.
+12:07:22 But under feeding is also something that happens.
+12:07:29 All right.
+12:07:32 So, from the previous unit, we saw ok we have our function that we're trying to learn.
+12:07:38 We propose a model to be a linear model more complicated model will use the data to learn the parameters of the model women will make predictions and will measure the performance of that over to think about what will happen in the future we have to think
+12:07:56 about what is the generalization performance of our model. And most of us I mean everybody is interested in what, what would happen in the future. Right, so if you are proposing a model in science of science, about the phenomenon you are interested in
+12:08:13 generalizing from your data rights, unless you maybe history, you might not like that may not be.
+12:08:22 So, such a powerful incentive, but you still want to generalize what happened you know a couple hundred years ago to what's happening today for example so there is still a sense of durability.
+12:08:34 And we'll use a very simple, not simple but I guess a very common way of trying to estimate the parts the generalization performance that's called cross validation.
+12:08:44 And we'll take a look at something called the bias variance decomposition, and This to me is one of the most important concepts in machine learning because it allows you to understand why we overfeed why we under fit, what's, what's happening.
+12:08:57 And then we'll take a look at ways of thinking about performance for classy fighters. Okay, so far we've only seen, well I guess with the idiot example we saw pacifiers, we saw accuracy but accuracy is not that great as a measure of performance we prefer
+12:09:12 to use something different like ROC curve, or the area under the curve, we'll look at that.
+12:09:21 Okay generalization performance. Now, one of my favorite example of generalization is this paper by Josh Tenenbaum.
+12:09:30 He's just like call us. And he's been interested in for a long time in one chart learning, like, how can humans based on just one instance of something that never seen before how they are able to transfer that into a new environment.
+12:09:43 So, and they have these tasks for many many years ago when they asked people, they present these foreign objects. And they asked, well first I tell people okay imagine that these are too fast.
+12:09:55 Okay, so they just give people just three instances of whatever this is to find a new award.
+12:10:04 And then they asked the subjects, whether the other things are too fast so they point to something so I hope you can see my mouse. So if I point to this object.
+12:10:16 I would assume, why don't you type on in the chat.
+12:10:20 Okay, do you think this is a to find the one that I'm that I'm hovering over, not right.
+12:10:27 What about this,
+12:10:32 maybe could be, what about this.
+12:10:39 Excellent. So you can immediately see how you were able to take imagine this this is an image so it's thousands of pixels, but somehow your brain has this way of extracting meaning and a structure and just to to took three data points, and it was able
+12:10:55 generalize and you already have a sense of uncertainty, you were pretty sure that this was not a twofer, you are not so sure about, I forget which one I wanted to, I think, was this one and but you were definitely sure about this one.
+12:11:08 So somehow you were able to classify them with really little training. So that's really impressive.
+12:11:15 So we want machines to do the same. How can we think about this issue.
+12:11:19 Now one of the another most important IDs in machine learning and in learning in general is this paper. The Whopper from Santa Fe Institute where he showed that there is no single method that can dominate all datasets.
+12:11:36 Okay, so there is no way that it can teach you, you know, deep learning or random forests and you can go happy about your life for the rest of humanity, because that method will not work in on data set so he showed that she's beautiful paper.
+12:11:56 And now it's like a intuitive solution of course there are data sets of university them your, your algorithm will not be adapted to the asset So, but this just shows you that you need to try different things with your data, there is no one solution that
+12:12:11 fits all. And this is what I take out from this paper.
+12:12:17 Alright so let's take a look. So, we will start by saying okay let's define a loss function, whatever that is, it could be a misquote error, just the difference between the real data, and our prediction and we squared that it could be accuracy, it could
+12:12:35 be the log likelihood of a model could be many, many things. Okay.
+12:12:39 But we'll have a loss function, and we want to think about how the loss function.
+12:12:45 General license. Okay.
+12:12:50 So, what we want is given a data set of training data set those fixed. Want to see how the loss function will generalize to or to other datasets Okay, that's what that's what we should have in mind will have a data set about papers or whatever you're
+12:13:06 trying to understand and want to see how we will do in the future for all possible data sets. given the training data that we have. Okay. That will be the ideal scenario but that's, that's really really hard because the, the will basically will need to
+12:13:22 require to have infinite amounts of data or data that we didn't see during training.
+12:13:29 So, and we are fixing it so basically we're saying hey don't touch this data this is the result that I'm reporting on just based on this training data.
+12:13:36 And I will take data from somewhere else to measure the performance, and this is really expensive because you basically needs to throw away the data that you didn't use during your training to just estimate the performance.
+12:13:49 So there are these methods that allow you to train your, your methods, your model. And, and reuse your training data in different forms so now I'll show you what that means.
+12:14:01 So basically you will.
+12:14:03 Sometimes you will use a power of the data as your training another part of testing, and then you will flip it. And that way you will reuse as much of the data as possible.
+12:14:17 Okay, so these are other examples of performance measures.
+12:14:25 Okay, so now this these are the this general idea that I'm showing you on the screen where you have three sets.
+12:14:33 subset of the data to assess the performance of your model, it's it's a generalization of what we saw before.
+12:14:41 In the notebook so when you execute it in our book with psychic learn, we split the data into two sets and you have a training set. So you took my base and your training there.
+12:14:52 And then you predicted the test set and you measure the performance.
+12:14:57 Sometimes, however you want to compare models, so you have several hypotheses about something done my explain the data. So you might say, Okay, I'm going to try these regression with these features.
+12:15:09 But maybe I want to also try this more complicated model with all these nonlinear charities and I just want to see which one is better.
+12:15:19 To do that you need, actually, another splits and that's called the test split.
+12:15:24 Because you need to first use the training splits as a way of finding the parameter for the specific model that you are analyzing, let's say you have a linear regression.
+12:15:38 In that had you have three parameters and you want to find those parameters based on the training split.
+12:15:44 But then when you compare different models you might be comparing model have different complexities. Okay so, by definition models that have more complexity will have better training performance.
+12:15:56 Okay so, because they able to fit the data much more nicely they have more degrees of freedom, so you want to control for the complexity of the models, by using a validation set by seeing how well he will generalize in the future.
+12:16:10 Then after you estimate that validation performance, you will pick the best model you will say, okay, that regression, with, you know, two variables, it's actually better than the rational with 10 variables, because he was able to generalize better he
+12:16:25 didn't fit in overfit.
+12:16:29 Now after you pick that you have to report the performance again in the, in the generalized sense so you have to pick a different splitter to the report there.
+12:16:42 Because you want basically to report the data on the performance on data that your moral model had never seen.
+12:16:52 Now if you're a.
+12:17:05 If you're a data scientists or you like to, to play around with things I will recommend that you play on a website called peril. There, where it's basically like a stock we're not going to stock market, basically you have people competing to, to make
+12:17:15 the best predictions or the most interoperable predictions for certain problems and and this, this idea of splitting the data is very clear there, because the company let's say releases a data set on, you know, London scans, x rays will say like, exercise,
+12:17:36 they want to. We want you to create a model let's say to the text copy 19 or some something else.
+12:17:41 Okay, so they give you training they you test. A test on that. And then you submit your predictions for validation set. Okay. And then you have a scoreboard with a list you, but because that bias is the, the performance because they will always pick the
+12:17:54 best one. They want to make sure that the people haven't adapted to the, to the, to the,
+12:18:06 I lost that, what was that going to say to the, to the ranking right they will want people to be optimizing the ranking. Okay, so they have a different set of data that nobody has ever seen.
+12:18:17 And that's a desperate and they call it sometimes the private data. and that's how they choose the winner.
+12:18:26 Okay, so now the, the simplest way of doing this is to split the data into three parts when you start your knowledge, the training validation testing.
+12:18:36 So I suggest. This is a signature split that I do but.
+12:18:42 But the problem with this split of using 60% retraining 30% from Revelation 10% for testing is that you're only using 60%, in reality of your data. So you're throwing away 40% that will give you information about what the best method.
+12:18:58 This is not the greatest, but he's really fast as it really simple.
+12:19:02 It's not the greatest, but he's really fastest it really simple. The most standard way of doing it is something called cross validation, where you repeat the following process you have your training data.
+12:19:10 And you split okay so you create.
+12:19:15 You basically you run the myself first, and then you, you create this folder. So let's say you have 10 Falls so you split your lead and two to 10 pieces.
+12:19:23 And you you take one piece in one iteration, and you use the rest for training so you use the rest for training and validation.
+12:19:31 And then you use the, the left over us as testing, and you repeat that process over and over again. So at the end of the old iterations, you will you will see that you will have us all the day.
+12:19:47 So it's a beautiful solution, there are some problems of limitations because there is some correlation but it's a great way of doing.
+12:19:56 Now the.
+12:19:58 When you optimize some methods and you try to to fit it to the date and the method doesn't need to be that sorry, the way that you measure the performance of the method doesn't need to coincide with the way that you training, training, That's not so clear
+12:20:24 Okay, so I won't get into the details of that but basically you kind of modify the training schedule so that you try to boost the general visibility of the model.
+12:20:40 Alright, so this is this is the equation that it's very important to understand.
+12:20:46 So, We will try to think about.
+12:20:51 Yes, so you won't you find 10 you have 10 distributions of of testing, and then you kind of take the average of that. And that's the performance on testing, That's what you claim your mess with us.
+12:21:04 That's a good question from the next.
+12:21:07 So, we will think about the generalization performance of different models, okay and the way that will do it is very similar to what we did a couple of hours ago when we estimated that in your performance measure you have even with usable error, and you
+12:21:26 have reusable error.
+12:21:28 Okay, so you will always have the reusable error, sadly, but if you keep developing the equation you will find that you will have two things.
+12:21:40 You will reduce this square and this four squared error but the same idea applies to other ways of measuring performance.
+12:21:47 You will find that the reducible error can be further decompose into two things. And this, and I will try to conveyed what they mean.
+12:21:56 One component is called the bias Polo is more like bias square because device could be positive or negative.
+12:22:04 And this means, on average,
+12:22:10 if you take all the models that you fit to the data, and I will show you later because you have 2 million that this is a distribution so you will see samples of data or time.
+12:22:21 You take the average fits of your model, and you compare it to the true function.
+12:22:29 You want to see how much you deviate from that.
+12:22:31 That's called the bias.
+12:22:33 So the more bias you have, the more means that your method, it's bias in the sense that it won't adapt to the data set that you're showing it, so it has some sort of pre defined idea of where it should go.
+12:22:50 It doesn't try to approximate the true function.
+12:22:53 So that's the life. The second component is the variance, how much you methods changes from fit to fit. Okay, so you look at all the samples of data, and you fit your methods to those samples you want to see how much each of the each of the feds compares
+12:23:17 Alright so let's see if we can make sense of that.
+12:23:21 So these are fundamental fundamental the composition.
+12:23:25 And, in the sense that he appears everywhere, but the most important thing is that usually methods that have high variance have low bias and methods or have have high bias have low pants, and we'll see what happens, why that happens,
+12:23:46 how these example here, it's, it's up for somebody to sort of see hopefully it can zoom out. Okay, great.
+12:23:55 So, I'm showing just the bias variance the composition here, and the equation the same as before, and making, I'm doing a simulation so that we can understand what's going on in the simulation is as follows.
+12:24:07 I'm going to assume that the true function governing the governing the beta that I see is the following five times x two minus two. So that's the blue line here, that's the true function that we're trying to estimate what we observe.
+12:24:34 version of that because we have some nice so we cannot get rid of in the system and that's going to appear here. Does the reducible noise, doesn't matter how clever we get. We will always have. So nice in the system.
+12:24:42 Know, to try to understand the bias bands the composition is good to understand that the data that you see is not the data you will see in the future so you have to think about what will happen if you were to observe data sets of the same size, an infinite
+12:24:58 number of payments, so that's why it's important to think about these frequencies view from priority.
+12:25:04 What will happen if your server this thing an infinite number of times of the same size. And here I'm showing you, nine different samples of that process that I showed you before, okay.
+12:25:15 The function is the same the true function exactly the same.
+12:25:20 Hopefully it's big enough.
+12:25:23 The true function is exactly the same but every time for each of the panel is a slightly different data set, you see like here you have a cluster then you have some here.
+12:25:33 So each of these things is different.
+12:25:35 So you have to think about what will happen with the front with the message you provide what happens, and how it fits, each of the samples.
+12:25:43 And then you can.
+12:25:51 You can. Recent about this expression here, based on that idea, this year.
+12:25:53 So let's assume that we have a regression. Okay, I'm going to assume that my model is a following, he has an intercept, and he has a weight.
+12:26:03 And I will see how it fits, each of the samples. Okay, So these are each of the samples from before.
+12:26:12 Let's see if this works, this word look doesn't look too too nice.
+12:26:17 This is zooming in and you guys let me know.
+12:26:20 It's like a little window we assume now. Okay.
+12:26:23 Okay.
+12:26:24 All right. So, these are the different samples is a different data sets and you can see there, and you can see that the linear function is changing a little bit.
+12:26:34 I don't know if you can see it but here is a little higher than this one at least this size.
+12:26:39 It's not, it's not changing a lot I mean you can see that here this one is very close to the, to the line right here is very very close to line.
+12:26:48 But he is very far away, at least in this in this part. Okay, so the function for different samples of the data is changing the function in your learning.
+12:26:57 OK, so the red line is the f hat here, and the blue nine is the FZF. So the bias
+12:27:13 bias is this one, the bias is, on average, if you take the average of all your red functions.
+12:27:24 How close are you going to get to, to the blue line.
+12:27:29 Okay, that's the question but this is what this is measuring.
+12:27:33 If I take the average of the red line, how close I'm going to get to the new life.
+12:27:37 And as you can see, well, it's even though I can observe, you know, data. I still will have some bias I will tend to have this little difference here that might be hard to get rid of.
+12:27:49 In fact, it might be impossible to get rid of.
+12:27:51 So linear regression in general have high bias. For this reason, because even though we're showing it different data sets.
+12:27:59 It's too simple, at least in this case to fit this function.
+12:28:05 I will try, I will try a different method, I will try a method called nearest neighbor. It's a very very simple method. And the idea is that to make a prediction I will look at the points that are surrounding in that, in that area of the of the of the
+12:28:19 space, and I will make a prediction that if the average of the K closest points in my training data.
+12:28:27 Okay, So, let's say here.
+12:28:32 For these green points
+12:28:36 to make a prediction in this green point I will take the average of the surrounding points around
+12:28:48 that expectation.
+12:28:53 It's, it's not the expectation of an expectation because the expectation of an expectation and just the expectation, this is,
+12:29:02 this is the expectation of how the function moves around the expectation of the financial, that's that's the, the more accurate description.
+12:29:13 So when keys one.
+12:29:15 Okay for nearest neighbor, they function will fit really really well to the training data, because every time we move it will just find the closest point so it will be really quickly.
+12:29:27 As you can see, I hope you can see that it's kind of feeling, everything, every nook and cranny really really well.
+12:29:37 Now if I increase the K. So instead of instead of taking a look at the at the of the closest neighbor just one neighbor if I take a look at more neighbors, you will see that it will take the average across a larger neighborhood, so it will be not so big.
+12:29:56 So this is 2020 neighbors.
+12:30:01 Okay, so he took the average of 20 neighbors.
+12:30:04 And as you can see.
+12:30:09 If I go back to K one.
+12:30:14 And I think about the bias component.
+12:30:18 You can see that if I take the average.
+12:30:21 This this here means if I take the average of the difference of my red curve, and the blue curve for take the average, on average is going to be very very close to the blue line, because it just adapt very very well to data.
+12:30:38 So we'll have a very very low bias.
+12:30:57 Sorry that couch, for some reason I shall get here. Who's going to have a very very low bias, because on average, I'm going to approximate the blue line, the blue curve ruler Well, the problem is that every time the variance.
+12:30:54 This is the variance part every time I fit the data, the function will change a lot, and this is what the variance is showing the variance will be really really high because for every sample of the data, the functional will just be completely different,
+12:31:09 and you can see it here.
+12:31:11 If I compare this to linear regression is the opposite.
+12:31:15 Every time I fit, you will be relatively similar.
+12:31:18 Okay, so if I compute the variance of the, of the red line which is my hat here, the variance of regression is really low.
+12:31:27 Because he won't change much from regression to regression for different except.
+12:31:32 And that's the idea of of bias, various, various trade off, because for some kinds of problems. Sometimes you have too much bias, and for other kinds of problems sometimes you have too little bias.
+12:31:47 In this case, for this particular example of this blue line, the regression has too much bias, because it doesn't it doesn't adapt to well, to the actual underlying trend.
+12:32:01 Okay.
+12:32:02 And it has to lead to two later variants. Conversely, so it's basically almost.
+12:32:09 The two sides of the same coin.
+12:32:13 On the other hand, if I do the news neighbor with just one neighbor.
+12:32:21 The.
+12:32:24 It will add up to well to the data points so it will have. I mean, you can see that this is clearly not correct, just doing too much, moving around. Okay.
+12:32:34 So, k nearest neighbor just with just one neighbor has too much variance. OK, so the error will be too big, because he just various too much.
+12:32:44 So if I take this expectation this value will be huge variance your unfortunate score, the bias will really tiny because I will approximate on average very close to the blue line, but on average, the variance will be just too high.
+12:32:59 Okay. So your goal.
+12:33:03 And to kind of summarize, why I'm showing you this is your goal is to think about parameters that change the complexity of your model so that you match the complexity of the data.
+12:33:14 And the way that people think about me so here I'm showing them some side by side and this is clearly a better fit, although is making a huge mistake here.
+12:33:24 Maybe it's not so clear now.
+12:33:27 Yes, exactly. So it relates very close to to our feet and that's my next life. Excellent question.
+12:33:33 Therefore,
+12:33:36 so I'm going to skip this.
+12:33:38 Just to show you a slide. Okay. So, if you have a parameter that complex that controls the moral complexity, so in kilometers neighbor is the number of neighbors in regression is the number of terms that you have and so on and so forth.
+12:33:53 You can control the complexity on your model. Okay, so if the model is not too complex.
+12:34:00 In the case of nearest neighbor that will mean too many neighbors, then you will have high bias, and low variance. So here I'm showing you the bias where because it has to be positive, and they have the various.
+12:34:14 Okay, so I say increase the complexity of the model, In the case again have neighbors.
+12:34:20 If I decrease the number of neighbors. I will reduce the bias, but I will increase the variance.
+12:34:27 In the case of regression to reduce to increase the complexity, I need to add terms with aggression by will reduce the bias.
+12:34:46 But I will increase the various, what will happen, however, is what we observe when we fit the data we observe, just the slide. Okay, the green line. We don't get to server is relatively hard to observe the bias and various but we have to be aware that
+12:34:52 there is a point at which the complexity of the model might matches the complexity of the underlying trends in the data.
+12:35:01 Generally, this is to be last question.
+12:35:05 When you have too much. When you see something like this one The performance is really good, and you reduce the complexity of the model, and he starts to increase, sorry in touch with increase the performance so you get more error.
+12:35:17 That means that you're under feeding.
+12:35:19 Conversely, you increase the performance increase the complexity and the performance decreases, that's assigned of or feeding.
+12:35:31 All right.
+12:35:34 Now, these happens usually the way that this is shown is with this plot where you have the means quarter.
+12:35:41 But the same happens with other ways of measuring errors, sometimes he would question you use something called r square.
+12:35:48 And the same thing happens I do a little experiment here so this is the square the variance explained. And you can see that it is a sweet, sweet spot.
+12:35:57 This is for example dataset.
+12:36:01 I think you can see it.
+12:36:04 It's behind the cell.
+12:36:12 So random for us it's someone asked about it and it's a nice way of measuring.
+12:36:19 It's a very.
+12:36:21 It has a lot of variance, about to empower tries to control various automatically because it does like an inline check.
+12:36:32 Okay, another very useful curve. When you're fitting models, is to compare different models and see how they progress as you increase the data size. Okay, so it's not too big, but here I'm showing you the square so the square, the higher the better.
+12:36:49 And I'm showing how the performance of the model increases as I increase the data size. You can see that regression. and this is I think this is predicting the citations, by the way.
+12:37:01 So as you can see regression, just get stuck, we can give it more data but he's bias. Okay, so it doesn't, it kind of stuck in a certain way of understanding the data, so it's it's just, it doesn't he doesn't have enough mileage degrees of freedom to
+12:37:24 fit the complexity of data model that is a little bit more complex is polynomial regression where as the squares the cubes, the fourth of the of the features and he's able to start much, much higher their performance with smaller data set, but it also
+12:37:32 gets stuck for try something like random forest. However, at the beginning, the performance is actually worse than the other two, because it doesn't have enough data overfitting here.
+12:37:44 But as I added more data, you will see that it will have enough.
+12:37:48 degrees of freedom to match the complexity of the data and it will actually be a better trade off between my between bias Americans.
+12:38:03 Okay, so I will.
+12:38:06 In this slides, I'll talk about talked about how to measure performance or classifications.
+12:38:15 But I will, I will leave these for you to take a look at and this is for binary classification.
+12:38:25 So you have a confusion matrix and you have the specific names for the different cases that you will get.
+12:38:33 And you measure the performance differently now with, where r squared or MSC measured with f1 with other other ways of uplift.
+12:38:44 So I wanted to move now on to how to do this this cross pollination business with Sigler. Okay.
+12:38:57 So here I have the code for loading so I have the articles feature so I have the alpha rank affiliation, the journal rank and the citation counts. So I'm only looking at papers that have less than 200 citations.
+12:39:12 And I'm adding a column called highly cited okay so this will be highly cited he has more than 50
+12:39:19 citations.
+12:39:20 Okay.
+12:39:22 So I want to take these features and predict the citation so that will be the regression or predict where they will be highly cited
+12:39:39 by the way if you're a fan of GG plots.
+12:39:40 Not sure this is what
+12:39:43 they say a package cold blooded nine, that try suitable use a lot of blocks.
+12:39:49 Applying data, blah blah blah.
+12:39:51 And here I have coals for running the regression, some nice keep this, I wanted to show you this. Okay, so these are the call for comparing the different models.
+12:40:04 Okay, this is horrible use that. And there's this little function that helps you with that's called learning curve this is from cycle learn, I will automatically take a model and it will see how it evolves as you increase the size with their.
+12:40:20 Alright, so I wanted to get to hear because it's part of the activity.
+12:40:25 Alright.
+12:40:27 So you have your data.
+12:40:28 You have the data that I was showing you before. Let's say you want to compare different models, okay I want to see which one of these is the best the best.
+12:40:38 Maybe one just too much buyers maybe one has just too much variance. So I want to understand what's going on.
+12:40:45 So I'm going to comparing this case three different models, and below this.
+12:40:51 Excellent.
+12:40:52 Good this hope maybe I need to execute something else. Let me see here.
+12:41:04 Okay, so I need to execute that.
+12:41:08 Okay, so I find my three models, and I will now, put them side by side.
+12:41:16 Yeah, I love plan for plotting, so.
+12:41:27 So I put them side by side, I will compare them but I have to do it properly. Remember I have. I'm competing models of different complexity and this is something that people might stop a lot.
+12:41:31 You need three splits to do this. Okay, so what I will do, I will first look at the data so my data is the fault is as follows so it has, sorry I have to load it somewhere Wait, let me see if x okay here, how the rank.
+12:41:55 have 79,000 papers, and I want to take only the first thousand to do my training and testing.
+12:42:10 I will only do it on 1000 papers, sorry. Okay, so I will, I will do this I will do.
+12:42:23 I see, okay.
+12:42:26 So, okay, this is how you should do it you should you take your data, you split in training about testing this testing splits. You never use ever. Don't touch it, don't look at it, nothing.
+12:42:37 And then you fit the data to the training.
+12:42:46 One of the models is significantly more complex, but you can see that it's much better. So this is the score I believe is doing our square, it's possible that that's something that looks too high.
+12:43:00 Always because I'm looking at the performance and training so it doesn't make sense this is this is a big no no in maturity, don't train on train, don't train your model and training there and the predictive training.
+12:43:11 So these are like meaningless.
+12:43:13 So what I have to do instead, I have to cross validates on the training data. Okay, and cross Val will do what we want, which is to split into different pieces and then, and then validate on a piece of building that wasn't usually in training, so this
+12:43:30 will do everything that we need. And as you can see, the M, the square is much more realistic.
+12:43:37 As you can see, the model that is simplest, which is the regression wins. Okay, so remember that will have to use cross validation to evaluate the performance of the model to choose the models.
+12:43:50 Even though, even though.
+12:43:52 Random for random forest random forest has amazing performance in training, that's obvious because it's much more complex, but invalidation here's where you see where they're really generalizing.
+12:44:05 And then if I if I want to report the performance, have to run the performance of testing.
+12:44:14 I have to run the performance testing. All right, so why don't you.
+12:44:19 This release activity where you will do this with you will compare to Module regression and random forest classifier.
+12:44:45 On a UC and just to help you because seems that you need to execute this entire thing to get the data that you want.
+12:44:44 I believe, or maybe this does it so xy I think this does it.
+12:44:49 Yeah, but this you get the data you need.
+12:44:53 So you need to do, you need to split the data.
+12:44:59 And then the training, and then valid cross validate.
+12:45:08 Okay.
+12:45:10 So, it's a matter of just taking this code and looking in psychic learn where leads to creation is what's the name of that package and what random forest classifier is.
+12:45:23 So I don't know which one is going to win. I'm embedding a random forests,
+12:45:32 all the data. Now, we like to use all the data or we just have to use 1000 samples oh we should use 1000. Yeah, because the data is to be.
+12:45:44 Oh, it's not that big. Let's just 79,000 Let's see, might might have an effect on which one Yeah, that's true, that's true.
+12:45:51 The reason that I use capital X is because it's a matrix, that's the kind of the reason that I do it. There's no programmatic reason. So to me it represents a matrix where I have the, the elements and then why is a vector.
+12:46:04 So, it's not a matrix so vectors, generally represented as lowercase.
+12:46:13 Alright so let's do the final Breakout Room of the, of the morning session, although I know that for some of us know morning at all.
+12:46:24 I'm going to recreate, and then I'm going to do.
