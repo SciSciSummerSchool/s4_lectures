@@ -1,0 +1,376 @@
+09:34:44 Okay, so I'm going to so many naval the transcript so so hopefully that helps a little bit. So,
+09:34:46 so the number of papers have been growing exponentially.
+09:34:47 And they're doubling every year around five years, seven years or something.
+09:34:50 Great references in the chat, so we went to, we will save the chats and share them later.
+09:34:52 In some platform that works for everybody.
+09:34:53 Of course will remove things that are you know that, I mean you can write to each other directly if you want to say something more personal. But I think these are all great resources and thanks for sharing.
+09:35:04 So, so we have the oldest grades data sets that we can use now but again the caveat that these are specific types of things that we can measure and that are relatively easy to measure, but I'm just amazed that we are able to access full text the figures
+09:35:20 captions data sets themselves funding.
+09:35:26 Institutions rankings, all kinds of data sets. Now unfortunately, I was sending invitations for the summer school, couple of months ago and Microsoft decided that they're going to shut down Microsoft academic draft so that's really sad to hear.
+09:35:42 And if you go to the website they have some alternative data sets that they suggest, but macroeconomy graph is a great data set. It hasn't limitations you have some shortcomings like this emigration but it's a great day of thing.
+09:35:59 But you have semantic core they also make available their data set you have full text there, and you have family to have access to. So we'll try to make some of these data sets available in the, in the, in the, in the cluster.
+09:36:17 Guess I'm going to show some of them later.
+09:36:25 Okay, so.
+09:36:30 So I think what's what's happening. These and this is my personal view is that what's happening is that we used to have. We always have some of the questions that were asking with science and science but we was hard to extract information from data sets,
+09:36:46 or maybe we didn't, we didn't even have data sets, or I would argue, we have data sets, but it was really hard to extract information from them like create a structure from the unstructured data sets.
+09:36:59 So there is this confluence of data sets up perhaps on structure. And I will say computational techniques that allow you to extract structure from this data sets.
+09:37:11 So I do a lot of work with, and on Thursday, we'll hear from Alan LP, about how they can extract a lot of information from scientific papers, and you could argue that a lot of the knowledge that we have about science is contained in natural language just
+09:37:27 written by scientists for hundreds of years. So, the new techniques that we have in machine learning and artificial intelligence, allow us to extract and create meaning or various create structure.
+09:37:40 Out of those data sets and the same thing happens with images. So, we can easily understand graphs and honey is working on a project where she's trying to make sense of graphs, which are basically just images that are containing scientific papers and
+09:37:58 machine learning and computer vision or allowing us to do that.
+09:38:07 So, so we can we can.
+09:38:11 Yeah, so I guess this is what I was already saying this this this opening up so much, so much things that we can measure now with these techniques that it's just really amazing.
+09:38:22 And that is much more that we can do.
+09:38:25 It's just, it's just that, you know, if I may view that are many things that we could do with data sets that we have available.
+09:38:34 By taking inspiration from what people are doing an AI.
+09:38:49 Ok so, I guess.
+09:39:00 Okay so given that I'm kind of running a little bit of our time.
+09:39:05 I would say I want I will kind of avoid purposely to say this is science of Sciences other things that are happening to me, science of science is simply the science, where you study science itself or you can take again the scientific methods and and analyze
+09:39:23 science and now we have so many opportunities to do that analysis connection we can extract, so much structure from data that was not available before.
+09:39:34 So the potential of this field to me just going to keep, it's going to keep increasing in the future.
+09:39:44 Alright. So next I'm going to talk about Python pandas and data sets. But before that, we're going to have these mega introduction of everybody. But before that, let me know you have any questions about the things that I just talked about,
+09:40:11 say it's very interesting chat.
+09:40:13 Very interesting chat. Yes. Look up some of these papers, so I think it's already already it's been a good discussion.
+09:40:20 Excellent.
+09:40:24 I like the, the, the idea of, we should use science of science to understand, or to detect whether it was their founders.
+09:40:35 Okay, any question about the the other stuff like the logistics, the summer school.
+09:40:45 No, there is no by below Griffey.
+09:40:49 Yeah, so I'm after, after you go there, we do the introduction, I'm going to show you what is what this is how I'm presenting this on our browser, and you should be able to access all of these the slides and the materials of the lectures, through the
+09:41:04 same in the same manner, if you can see is the same environment that you will have access to.
+09:41:15 Okay.
+09:41:17 So any anything to ask, Stephen, or
+09:41:24 just quick question. Are these slides available on the, on the.
+09:41:29 Yeah, they are available, I'm going to show it. Okay, so, but yeah maybe you can show I want to quickly show that when you log into into this system, you will see to folders.
+09:41:42 Okay. So, if you're familiar with Jupiter have this is basically showing you the files that you have in your home directory in the account that we have that you you have in the system.
+09:41:54 Now these two folders are created automatically by the system every time you log in or automatically every once in a while. Now data sets have data set that we put here and there are many data sets, we have my, we have images mentorship data set.
+09:42:09 But in the library folder. This is the stuff that you can you can modify okay so we basically enter a folder. That is yours, only yours, only of your accounts whatever name you have there.
+09:42:23 That's the name of source. That's the these files are going to be associated with the name, and here you can create, you can create files you can do whatever you want.
+09:42:31 so I'm going to create a file here.
+09:42:35 works okay create a file.
+09:42:38 Now, inside library and insight as for lectures.
+09:42:43 This is where the lectures are going to be synchronized. Now, the lectures that have been taking from GitHub repository, and I'm going to post that somewhere.
+09:43:00 Okay.
+09:43:05 So there is this GitHub repo is open to everybody so it's actually our organization we call sigh sigh summer school, and we have the website that you see the s for that science.
+09:43:17 Science of that.
+09:43:19 org.
+09:43:20 And we have the lectures, okay so this report here has the lectures, and they are in Jupiter notebook format.
+09:43:28 So, automatically, the system will synchronize this report into your account so you will see the files here. So what I was presenting here is in the introduction sub folder, and his his very first Jupiter notebook so if you click there, you will get to
+09:43:47 see this.
+09:43:51 So, you, in a sense, have this light available now it's not, it's not really like a slide because like it's a Jupiter notebook but once you enter. You have to click this little button here, this is a system called rice, and it's like a Jupiter is like
+09:44:05 a slide system inside the, the browser, and I love it.
+09:44:16 Cool.
+11:10:00 So I'm sharing this screen hopefully you can see it.
+11:10:05 I'm gonna, I'm going to start recording. Okay, so, you're going to see a little light or something on a resume recording so it wasn't recording.
+11:10:18 Okay, so we are going to review the environment that we have for you.
+11:10:24 And some of the data sets that we have.
+11:10:26 Okay, so.
+11:10:31 So on the environment that we have. So if you go to the to this address the SOS hub, that is called the SYRU.
+11:10:44 You will be asked to login, hopefully you'll really try it.
+11:10:47 You will be asked to login with your GitHub account.
+11:10:52 If you try to log in the GitHub account doesn't work you get an error for three. You have to send me a message, and I can add you, but I haven't.
+11:11:03 So I just need to authorize you to access the system.
+11:11:07 So when you enter you will see something like this. Okay, so this is a Jupiter have environment.
+11:11:16 When you log in, when you with your GitHub account, the system will automatically create a container for you, and this container will have all the code that you need to run all the exercises in your summer school.
+11:11:33 So, you will have a like a small computer if you wish, if you will, with about eight gigs of RAM, and about a process source, and this is a big cluster and is running a q amp netease, but you don't need to worry about that.
+11:11:47 You are isolated from everybody else.
+11:11:50 And anything that you do here. Get safe gets saved so you can log out, leave, and it will, it will be available when you come back, except that if you want to record something and stay in your account, you have to put it in a specific place because, because
+11:12:11 if you put it here directly in the home directory, he will get deleted, if, if, if you log out.
+11:12:22 So, there are two folders in this environment, one folder is a data set folder and the other one is the library for the library folder that I have a folder contains your code.
+11:12:38 So whatever you put inside here, you will get. Save
+11:12:44 permanently for your account.
+11:12:47 Now there is a special for the hero Cole s for lectures and this folder. Again, will get synchronize with the repository that we have for the class this repository called s for lectures.
+11:13:01 So every time you log in, it will, it will be synchronized automatically will basically will get pulled into this folder.
+11:13:12 So, but if you want to create again a file or Jupiter notebook here. You can do it, and it will be safe, when you come back in the other folder that we have in the fold in the home directory we have a data sets folder, and here we put.
+11:13:31 Well this these are like just debugging
+11:13:35 folder so don't pay attention, just go to us for.
+11:13:39 And here you will have sub folders with with data center we're making available for you. Some of these data sets are very big and probably unless you know some specific way of accessing data.
+11:13:56 You won't be able to load it with the traditional Python packages like pandas and things like that
+11:14:04 There are other ways of loading data sets that are big and I will be giving pointers to those software packages. One of them is called Spark, so it's in Python is called spark and you can access data sets that are bigger than the run.
+11:14:23 And another one is called bask now bask is installed here and you can use it to load data, but we won't be teaching it here in the class I'm going to give pointers to it later.
+11:14:35 Probably posted on the good have sorry on the.
+11:14:42 So one is the task, I guess.
+11:14:46 Let me ask is this showing transcripts.
+11:14:54 Okay supposed to be showing were saying,
+11:14:58 OK, so the transcript it's just in a, in a window. Okay, great.
+11:15:03 I don't see it, but that's so it's very confusing.
+11:15:07 Thank you. So now the main data said that probably most of you will be interested in is called mark and these are the Microsoft Academy graph data set.
+11:15:16 but we only have eight gigabytes of RAM, and again I will be sharing information about how to access this data sets of the size.
+11:15:37 So, the Microsoft academic graph, sadly, is retiring.
+11:15:43 But you can still take a look at the the at the entity.
+11:15:56 I know that that's not the name at the entity diagram. So, so they make available the entity relationship diagram. So if you're familiar with databases.
+11:16:05 These basically saying these are different tables or different files that have this, these, these are like huge Excel spreadsheets and these these have different columns.
+11:16:16 And these are how the columns are related with other tables so you're having this data set. So if you click here you will see the details Sunday have a pretty nice set of data sets, set of entities here.
+11:16:30 Now one of the nice things about this data set is that you have identifiers, and they try to. I mean they used to be worse and now they're better, but still, there's still there's still work to do, but they tried to this and be the disambiguate hours.
+11:16:46 So for example, sometimes I used to be used to call us to put my name is Daniela Konya, and the system will just split me into two IDs because he saw that a cornea was a different person from without the area.
+11:17:03 So, but now they have improved the distribution system. Quite a lot so it works better.
+11:17:11 Now, in the, in the folder we have the, we have the data but we also have samples so txt are the real data set. So as you can see in the difference inside that will become clear.
+11:17:26 So these are the real data sets from mag and you and to access that you have to pay a little bit so we're making it available here.
+11:17:34 But because it's hard to know these data, I, we created a sample.
+11:17:39 Okay, so the way that we did this sample is we randomly sample and correct me if I'm wrong but we randomly sampled 5000 authors so we sample 5000 people from here, from the author's table, and then we created, basically we took all the papers that are
+11:17:58 published, all the citations and all the papers that are signing those papers. So we have like a one step out.
+11:18:06 Part of that network, and that's, that's just because we will use it for showing the capabilities of what we will teach.
+11:18:18 So, the.
+11:18:20 So he has. He has papers is has our authors, and it also has institutions, so he and in and they are disambiguate it so you can you can keep track of, you know, institution productivity and impact.
+11:18:37 They also have keywords and they are fairly goods. So the use of sophisticated way of ensuring the, they call it
+11:18:52 feels yeah paper fields so they have a sophisticated way of assigning field names to the papers so even though the paper might not have information the abstract about the field, the system will kind of infer what the field the sofa paper and that can
+11:19:10 Feel the sofa paper and that can be useful if you want to understand, for example, plot.
+11:19:14 One of the fields represented in a set of papers.
+11:19:19 The other day I said that we have is called ACL RC and we use it for a project for a problem called site worth worth in so basically if you want to build a system where will predict which sentence should have a citation and which citation should be in
+11:19:36 that sentence. This is the so that you should use. And we also make it available because we will have an example, in one of the classes, and one of the sessions for this.
+11:19:49 You can see more information here in this link.
+11:19:54 The other day so that we have is a sample of an open access subset, so if you are interested in things beyond citations, but more in content on about content.
+11:20:06 This is the place to go. They make available around 7 million open access publications.
+11:20:12 And we have a sample of this.
+11:20:16 And, and you can.
+11:20:20 Well, I'm not going to access it now but basically, each papers that he's open access will have an associated zip file and that's if I will have the full text in XML format, and the images associated with that with the paper that the defeat years.
+11:20:36 So I use it in my research what I'm trying to detect fabrication and scientific figures.
+11:20:43 But you can also use it for other types of things if you want to understand the captions that are inferior or something like that is the way to go.
+11:20:53 So this is around four terabytes of data I downloaded it, and once you uncompressed it I think you'd be doubles. So it's fairly.
+11:21:06 It's not that big.
+11:21:06 And the last data that we have is called mentorship and this is a relatively new data set that we creative watchin created a postdoc in my life was moving to Hong Kong for tenure track position.
+11:21:20 And basically, this is a collaboration between me different, and my students for trying to create a data set of mentorship. So, a lot of things that you see in publications are our relationship related to our leadership.
+11:21:37 A lot of them are mentorship relationships but not, not all of them. So, we use the system. The, the website that's different creative community in the past but not school.
+11:21:51 Okay, any family tree and he has the genealogy basically of hundreds of thousands of scientists and with this data set.
+11:22:01 In this paper explains what are the entities in subject inside that they are set and willing, each of the profiles in his data set, with my ID so you can track citations publications, etc.
+11:22:16 It's different will explain this in more detail, or give examples about this data set on Wednesday on the network science session in the network side session.
+11:22:31 Okay.
+11:22:35 So, what I will do now I will go into the
+11:22:43 lecture lectures.
+11:22:45 And I will just show you what this is basically what what is this thing that I'm showing you and this is again this Jupiter notebook and it's basically showing your browser in the files but then sometimes you have this special file with this extension
+11:22:59 called IPYNB which means I Python notebook.
+11:23:04 And what these files are are combinations of both texts for rich text so you have, you know, Heather's and bold funds, and links.
+11:23:23 And also, you can have codes. So, I assume you're familiar with something like this, maybe not Empire from I need in our when you have in our school you have something similar to this in Mathematica.
+11:23:36 I think that's where the idea comes from.
+11:23:40 Now, in this summer school, I cannot possibly hope to teach, Python, and all of it. Now Python is a relatively simple language, but it still can be complicated just if you're just getting started.
+11:23:57 Especially because he's very lenient, and you can do many things that other languages, wouldn't allow you to, so sometimes you will know how, why things are happening.
+11:24:08 So I'm leaving here a couple of links to two tutorials that you can use.
+11:24:17 You can use I'm aware that there is someone is mentioning, an error. You can get aware the narrowing we're trying to fix it so at the start, when you log in the system may crash and it may show you like a big list of errors, and we're trying to fix it,
+11:24:33 it seems that you need to wait a little bit, and then we'll walk away automatically but we'll try to get to it soon.
+11:24:42 So these are some courses that are available for learning more about Python learning more about things that I, I, we think are important like good have keeping track of codes
+11:25:06 and basic stuff about this. Now, of course you can install Python in your local computer. The most common distribution of Python, I would say is Anaconda Python if you go to this link, you can download it and install it in your system, you can program
+11:25:25 So, or through I Python so I Python is an environment that works in Terminal. So if you if you're accessing the CI server and you'll have access to web browser, then that's the way to go.
+11:25:32 But then, the way that will do it in the, in the, in the summer school is through the Jupiter notebook.
+11:25:40 So, the way that Jupiter notebook works is that you have an interface is just a front end, that is connected to a kernel is basically connected to a Python program in the server student circus.
+11:25:55 So whatever you do in this in this notebook if you execute cold when reality will happen is that he will. He will take this. Well, the system will take that code transmitted over the web and will get executed here.
+11:26:07 So there's nothing really safe here so if you close these and reopen it you will lose everything because he will close the Jupiter, the Python kernel that belongs to this, not book.
+11:26:19 So in the deeper novel, there are some concepts, there is a concept of sales is the concept of different types of cells.
+11:26:38 And
+11:26:37 right so so to access the cell.
+11:26:40 We are going to,
+11:26:43 you can see now actually, that if I click something it will show
+11:26:49 a border around this and this means that this is a cell. Okay, now when the cell is color blue, it means that we are in, in, in command command mode so if I, if I click I'm now using my arrows, I can move around.
+11:27:05 The Notebook.
+11:27:07 From cell to cell.
+11:27:08 But there is another mode called the edit mode, and that you entered that mode by either pressing enter or double clicking on a cell so here I press enter and I enter the edit mode, and now I can edit the content of that cell.
+11:27:25 So here you can see that this cell has some, some formatting. So, this is called a markdown.
+11:27:34 I assume this is something relatively familiar, but it's a way of creating formatted text using simple plain text. So here I'm saying, with this pound sign I'm saying make this a heading.
+11:27:49 With this one's I'm saying make this, at least at
+11:27:53 least a numbered list.
+11:27:56 Now to ask the system to interpret this cell, you have to execute it and you can execute it by doing run, or I'm going to enter again I'm gonna double click.
+11:28:09 Or you can execute it by pressing Control Enter, or shift enter breath shift enter you move into the next step.
+11:28:18 Now once you are in the command mode you can delete cells and insert cells with various key, key shortcuts. But on the edits but you can see as shortcuts here.
+11:28:32 I use it all the time so I kind of memorize these shortcuts so you'll need to be going into the manual to insert itself so if I want to sell sell below the shortcut is be instead of just going to the many.
+11:28:45 Now this, the sales have type. Okay so this sale right here is a type markdown, but the sale below that I insert the subtype calls. So here's what I can start certain certain calls.
+11:29:00 So let's move on to simple Python here. Okay, so I'm going to just go some some over something very simple simply variables loops. And if statements, because that's the activity will have later.
+11:29:17 Of course you have the basic data types in Python and here you have cells that represent code so this cell means that nothing has been executed yet.
+11:29:27 It says this is an input cell but it hasn't been executed so it doesn't have a number, but if I enter it, and then I press run, it will execute it. It will send it to a candidate will return so this is saying, you know, I want to know the type of this
+11:29:43 object that I put inside my function. And it just returns into because this the type of this object is an integer.
+11:29:50 And you can do this with the next one so we have floating point members, and I'm going to start executing by pressing Shift and enter. So if I press enter it will execute it will not automatically into the next cell.
+11:30:05 So, when I execute this.
+11:30:08 And you have different types so you have strings bulletins list dictionary so these are sometimes called hash maps so you have a key and a value pair.
+11:30:20 And you can access the values through the key.
+11:30:23 You have trouble.
+11:30:25 And you have.
+11:30:38 Well, do you have when you create trouble sometimes you have to be careful because we just put in parentheses one recognized as a top old just recognize these are floating point.
+11:30:37 Now, I recognize that I'm going through these, but maybe too fast but hope we will make this available as videos and hopefully you can review it later if it is too fast for you.
+11:30:54 If this is too fast for you. Now, I will ask you to go through this yourself.
+11:31:00 But one of the coolest thing about pythons that you have these very powerful constructs for for creating data structures or any metering elements and applying transformations, two elements.
+11:31:14 So, to create a list for example you just execute this this command you will create two lists. Now list, don't care about the type that you put so some programming languages they all the elements that are inside the list has to have to be the same type
+11:31:31 he doesn't care.
+11:31:34 I can ask for the length of the list.
+11:31:38 Now they don't, a concept that is very important in programming languages is a concept of accessing of a variable through value reference or through a pointer to the, to the, to the variable.
+11:31:55 So, what this means is basically if I say I'm going to hear over, apply an operation I will say, I have my x list. And if I append, or have another list, it will just add to it but he won.
+11:32:09 He won, modified x.
+11:32:12 But there are some operations that actually modify x so if I do this operation you won't return anything, but internally the x structure has been modified.
+11:32:23 And again, lists don't care, the data types that they have inside.
+11:32:28 You can you have all kinds of operations, you can ask for these value inside a list.
+11:32:35 And another very common operation is to select parts of the list. So here I'm going to create a list from one to four.
+11:32:56 And, and you can access different elements. Now, in Python the indices start from zero.
+11:32:52 So similar to see but in our industry start from one. So, this will this operation will access the first element of the list.
+11:33:01 This operation would access the fourth element of the list.
+11:33:05 You can select different parts of the lists by doing this operation called slicing so I can say give me from the CEO of index, up to before three index.
+11:33:18 So I won't return the fourth index is a little different from here here, he returns the fourth index because I'm actually asking explicitly but when it asks for a slice it doesn't take the last index into account.
+11:33:32 Okay so here you have other examples that I'm going to skip for now. Now, one of the operations that are that are really compact and powerful for representing transformation is called comprehension.
+11:33:48 So incomprehension, you can you can generate data by iterating over a sequence and applying operations to each element of the sequence and it's very intuitive to read here you're saying basically just make, I go through a list of elements so this is.
+11:34:13 This is just a list from zero to nine. And for each of the elements, don't do anything just just return the same thing for this will just create the same list again, but I can apply more sophisticated operations like a square each of the elements.
+11:34:28 I can also apply conditional conditions to the production of elements of this comprehension so here I will only produce things if i is greater than five so I will return, only a portion of the list.
+11:34:47 No Strings are the same as list basically we are just concatenation of characters so you have the same operations, you can select characters, you can select slice of the string.
+11:35:00 When you have negative values in the index that means that you want to start from the back of the string from the end of the string backwards. So this means, give me the, the 10th character from the back of the, of the string, all the way up to the end
+11:35:17 of the list.
+11:35:20 And these this other way of of selecting a slice, where you say I want to skip, give me from zero until the end, but I want to skip every character, every every two characters so we'll just give me the.
+11:35:33 The of characters of the list.
+11:35:38 And of course you have many operations in this object so I'm going to show you now how to access the health of the object so here, ask, is the screen so if I can type so it will be a string.
+11:35:53 Now objects you can access the operation so you can do on them by using the doc bottom dot character, and to access the operations that are available you press down.
+11:36:06 Great. So it seems that the system is working for somebody.
+11:36:11 So here, I wish I could show you my, my keyboard but basically I'm passing ass, and then dot and then a pressing tab. Okay, the tab key, and they will list suggest things that that object can can do so I could capitalize that string so this will take
+11:36:33 the spring and transform or the letters.
+11:36:37 Well, he will just transform the first letter of the, of the string into capital but he didn't do anything because he was already like that, but it can do something like upper that will transform everything to upper case.
+11:36:51 There are many, many other operations.
+11:36:58 operations. Okay so lists are things that you can modify so before I created this list if you remember from one to four and I can say, replace the third character minus one.
+11:37:10 And if I print it again, he will show me that it replace it. But a top of one allow me to do that is immutable so if I tried to replace it.
+11:37:19 It will complain. And the idea is that topples are generally more efficient for storing things that you don't need to modify.
+11:37:28 So dictionaries. Again, this is the similar idea to hash maps, or I like to think of these as like a row in a database or a row in an Excel spreadsheet so these saying, one of one rover spreadsheet has two columns name and GPA and these are the interest
+11:37:45 in the column. And here I'm creating
+11:37:50 I'm creating another I created another column basically creating another entry in the, in the dictionary.
+11:37:59 Now if I asked for the keys, it will return the values. But here I didn't define age so if I execute this will complain to avoid that complain. I can use the operation get, I say get these key but if it doesn't exist just return empty string.
+11:38:18 There's a question about if I copy the lies.
+11:38:23 Yeah. So, good, good point so to, you can do capitalize to see with a with a think at the beginning with a question mark it will show you the, the help, what he does.
+11:38:44 Celebrations let's say fine.
+11:38:43 Let's say you want to find a stream. I mean, a sub string every.
+11:38:49 I believe existed. Yeah, so it's in the first index.
+11:38:52 So I'm going to print again.
+11:38:55 So one cool trick that I that I sometimes use is that, let's say if you want to understand what are the parameters that you need here, I press and I put my cursor inside the parentheses and I press Shift Tab.
+11:39:12 That suggests things that I can, I can do with the spring.
+11:39:18 Okay program flow.
+11:39:20 You have the usual suspects you have the, the Boolean operation or Boolean queries and it will return a Boolean depending on whether they're true or not.
+11:39:31 Now one thing that may be different from if you're coming from a different language is that there is no sense of of creating a blog with a special character.
+11:39:40 So what I mean by that if I say something like, let's say this is the list so I know that two is in the list. Right.
+11:39:47 Okay. So if I do something like if to in x. If I do column, this press enter it will automatically create a block. So a block here of code is simply denoted by spaces.
+11:40:01 Okay, so this is different from other programming language so here I'm creating a block of what would happen if x contains two.
+11:40:11 Okay so here these two things will happen if to come. This is an x. And as you can see it will happen. So, if I, if I do an else.
+11:40:21 And I kind of messed up the, the, the, the spacing will complain says that there is something wrong. Well, Okay, so I complained to this syntax error.
+11:40:31 And this will this blog post will be executed when this is false. So, now, only the first string will be printed.
+11:40:53 So for loops, it's actually very very nice very very simple so let's see I'm going to define a list here called a from one to four. And as you can see he's almost very I mean it's just telling you what it's doing is it's using a variable that will go
+11:41:10 through each of the elements of the list. And whatever you put inside here this variable element will take on the values of A. So here, what I will do I will go through the elements of the realities of a and I will just bring the values.
+11:41:25 So it's very intuitive.
+11:41:29 Now functions are also very intuitive here I'm going to define a function, I use the key word def this function has no parameter to put comments on a function use just this three special characters you can put comments in other ways like this, but usually
+11:41:46 with functions, this convention that you want to put multiple line comments or you can say this function is is constant and returns, five, so you can put multiple comments to multiple lines.
+11:42:02 So, I will define it and then if I executed, you will tell me, it will return result. Now function. So first, first class citizen since in Python. So if I use the type of F it will tell me that he's a function.
+11:42:17 So I can do operations with functions I can understand what they have inside what are the comments.
+11:42:24 Now functions don't care about the type, although the new versions of Python you can annotate you can say I want these to be an integer, but these are just suggestions so it doesn't really care.
+11:42:34 So you can say at two numbers. So here we received two parameters, am B, and it will return this the addition of the two numbers.
+11:42:43 Okay, but if I add two strings, he won't care, it will just apply the operation to whatever you're passing.
+11:42:51 But of course if I pass to on a string.
+11:42:55 He will complain because they cannot be much okay so you want.
+11:42:59 When you grow the cold you won't complain until you execute it so that's one of the problems with with interpretation interpreted languages that you cannot know at the time of programming that you will have an error, unless you execute the course.
+11:43:17 All right.
+11:43:26 Now there is, there is a ton of packages in Python and we'll go, we'll go through some of them tomorrow.
+11:43:27 But to import a package you use this, this, this way of doing it, you say, import the name of the package and you can rename that import. So if I import nine pie is that I can use all the functionality.
+11:43:42 That is insane nine pain so if I do, again, it will live everything that is inside can create a matrix of zeros
+11:43:53 typo there.
+11:43:54 But, I mean, we'll see non paid tomorrow but but you can rename it and instead of typing them by all the time. Every time you say MP.
+11:44:09 So to sell packages. Good point. Now, this environment that you have here, you, you are allowed to install packages. Okay, on to install packages that is a package manager, there are many package managers in Python.
+11:44:23 One of the simplest one is called peak, PHP, Python, something, something I forgot. So you pick and you install something like they do, which is a duplication library.
+11:44:36 We can do something like this.
+11:44:39 Well you're trying to duplicate names or affiliation sister perfect package.
+11:44:45 So if you do that, it will install the package.
+11:44:51 Now the problem power is that this is similar to what happens with Google collapse so every time you create.
+11:44:59 Every time you create this, the folder.
+11:45:04 Now this didn't load because there is a problem with the package. Okay, so it's not it's not because, because there's a system is, I mean, it's incompatible so the package hasn't updated, but you can install packages with Pip.
+11:45:19 And, but every time you you restart the notebook or every time you come back let's say in half an hour. Probably, your environment. The, the things that are outside these two folders will get deleted and that's where the packages I installed, so just
+11:45:32 be careful with that.
+11:45:37 Okay, so we're going to do this amazing innovation on how we're going to do activities. Okay. So hear me out.
+11:45:48 We have this little activity, and if you know you've studied data science or material and maybe you know this this problem. This is called the fist bus problem physicals.
+11:45:59 And the idea is very simple, we want to, we want you to write a program.
+11:46:03 Okay, so pay attention. Write a program the prince the numbers from one to 100.
+11:46:10 But for multiples of three.
+11:46:13 You want to print this instead of the number, and for multiples of five, you want to print bus for numbers that are multiple to both three and five, you want to print face bus.
+11:46:25 Now before start that's to test if something is a multiple of something else, let's say, 10 is a multiple of two, you do the following kind of strange operation, you say, I want to take the division.
+11:46:40 The remainder of the, of the integration of 10 by two.
+11:46:45 And I will ask is that zero okay so this weird operation here is asking basically is 10, a multiple, multiple have to.
+11:46:56 Okay, I stroke. So, in your little program you will have to do something like give the whatever the number is a multiple of you I'm asking for, what is it five three let's say, this is zero, you will do something print something.
+11:47:11 Okay.
+11:47:13 So that's the idea. Now, the way that this will work is as follows revolutionary revolutionary revolutionising everything.
+11:47:22 But before I move into that. I don't know if you have any questions before I move into the activities and the breakout rooms.
+11:47:31 I think the question is mainly when your cell phone. How to Make sure some of the progress and package is not laws, I can say if you're locked out something.
+11:47:44 Yes, yes, good point. So, If you want to solve it, you can.
+11:47:50 You can go to, to where the to where the, the, this is so this is again a library as for lectures introduction, and then you go to basic Python.
+11:48:04 And I'm just reopen it again. And you can work on it here.
+11:48:14 Okay.
+11:48:08 If you see him it.
+11:48:14 He will he will save it. Unfortunately, it will, it will may get replaced the next time that he pulls a new changes from the server.
+11:48:17 So the best way of doing this will be the following the most sustainable way will be to you will. Well, I'm going to close the Oh basically you go, you open it, but then you say, Make a copy.
+11:48:31 So you open the notebook that I'm working on, you know, make a copy, and they will make a copy and we'll just add a different file name will create a new file name so this will get one get replace.
+11:48:44 When you open it again. So these are new, new instance, all the variables of these up here because this is a new character basically
+11:48:53 any other question.
+11:49:00 OK, so the way that we will do this, and I don't think the breakout room thing that we try to do work.
+11:49:11 So what I will do, I will just assign breakout rooms at random. OK, so I'm going to create breakout rooms so that you know that are like four people in each of them.
+11:49:21 Okay, and we will have.
+11:49:24 Let's see.
+11:49:25 Some of you cannot access the breakout room.
+11:49:28 So that's really, and we need to get working on that, hopefully tomorrow that will be fixed.
+11:49:37 So until noon. Okay, so we have like 1011 minutes, so I'm going to create breakout rooms.
+11:49:46 And let's see how many people are here 54 so let's see the walls, and I'm just going to run the maze everything.
+11:49:59 Okay, so things I'm not available.
+11:50:08 And so, Daniel real quick. Yeah, it seems like, I guess, a number of people are having trouble connecting to the server and I guess.
+11:50:17 I don't know if I'm.
+11:50:19 Well, I don't know if we can do if we do randomly guess we'll set to see if someone who has a notebook is gets thrown in every breakout room but maybe if someone does then they can, everyone can kind of watch while they work on it.
+11:50:29 That makes sense. Yeah.
+11:50:32 Now these activities, it's also a little bit like you know and you get to know other people.
+11:50:40 So I want to open up the breakout rooms, I believe you can leave a breakout room and go somewhere else.
+11:50:49 I think this just do this and let's just, I mean you can solve this in your head, if, if, if, if you're so inclined.
+11:51:01 I've, I've got to get working on solving this issue.
+11:51:05 I've got to get working on solving this issue. Okay, so I'm going to stop the recording. And you may be put up the problem and then so like I have the Jupiter notebook, that's just on my on my computer from the, What is it called Anaconda stuff so I can
+11:51:17 just do it on there. Instead of, you know, because I won't can connect to the server.
+11:51:24 Maybe we could post it in slack.
+11:51:26 Yeah, I'm going to post it. Because, let's do this.
+11:51:36 So you click that.
+11:51:38 Sorry, I have to look at the chat here.
+11:51:44 If you click that you should see the not the problem at the end. And if you have locally installation of an icon that you can execute that you have Google collab You can also execute that maybe we should do also like Alibaba notebook or something like
+11:52:00 that i think that's that's a product that we have to.
+11:52:08 Okay, so let's do this. I'm gonna.
+11:52:12 So allow return. Excellent.
+11:52:16 And I'm going to give you know like 10 minutes
+11:52:25 and.
+11:52:30 Okay.
+11:52:32 Let's do this.
+12:03:11 happened to hit enter right when it asked if I wanted to rejoin the main room and surprisingly found myself.
+12:03:25 Okay.
+12:03:34 Know stiffens here but can we assume recording.
+12:03:41 Okay, so what we will try to do is that every time there is an activity in one of the days, there will be a not a special love book secret not with the solutions.
+12:03:52 Okay. Ideally, of course you want to try to the activities for some days there will be activities where we will have the solutions here necessarily like tomorrow we'll have an exercise that you can do in the afternoon, so that might not have the entire
+12:04:06 solution, but today since this is a simple relatively simple problem.
+12:04:11 Here's the solution.
+12:04:14 Now, if you were not aware of this problem.
+12:04:16 This was asked, as a very basic filter for data scientists because a lot of people were trying to become data scientists, but solving these problems seemed to filter, some basic misunderstanding that, that you might have with if else are different alternatives.
+12:04:40 So,
+12:04:44 isn't that a bit Weiss and return to a, I know.
+12:05:01 machine, this should work.
+12:05:05 Okay.
+12:05:07 So I hope that this was useful. Again this is more like an excuse for for you two guys to to interact, hopefully it will be a little bit more challenging as we move along this.
+12:05:23 But, with that in mind, I want to, to then stop the morning session. And what will happen now depends on on what, when you want to join so for students that are in the unknown What should we call this but I guess I call it Asian Oceania time song, you
+12:05:47 can join back in 10 hours at 10pm my time, which will be 10am in China, if I'm not mistaken, and that will be the session where we're stiffen will will do some activities for you so why don't you kind of give a piece of that.
+12:06:07 What that will be different if you might.
+12:06:14 Sure, so this is this is the, the sort of discussion, I guess. Afternoon East Coast time, and tomorrow morning.
+12:06:19 The Asian time.
+12:06:21 And so I was looking calendar said so. So basically what we want to do is just start throwing out brainstorming about ideas for the project proposals.
+12:06:34 So I'll just go over a little bit of the mechanics of the, how we imagine it working.
+12:06:40 And we have a couple ideas that we've come up just to kind of mostly just provide kind of models or templates for how we how you might think of a project.
+12:06:49 But I think would be really great is to give you guys an opportunity to put out your ideas and basically get at least a starting point as a set of breakout rooms where you can start discussing it and then also there's some good suggestions to set up slack
+12:07:03 channels for different different areas and I think we can. My sense is that this is something that can be pretty organic. Getting Started so.
+12:07:12 So the goal here is not to lock yourself into a project as soon as possible but instead to kind of think expansively think about different different ideas for what you might be able to do, and and find other people who are interested in doing the same
+12:07:26 thing so we'll kind of get get started on that one the next session starts.
+12:07:38 That.
+12:07:38 Oh, cool. Yes, so I guess that's that's it, if anybody has any question you can ask now, or we will just start the long break and we'll see you again in like,
+12:08:05 in on me that I had access for the sharing screen
+12:08:11 exercise that we just did.
+12:08:17 I don't understand the question. Sorry, exercise that we just didn't approve. I didn't have access to the server.
+12:08:30 It was saying that I'm not alone. And I also don't have access or sharing the screen in that respect.
+12:08:37 Okay, so I fixed the issue of sharing screen and grew up to, and group activities if you try to connect to a server and he tell you told you that you don't have access, maybe your I have your wrong GitHub account.
+12:08:50 So send me your.
+12:08:53 I checked it earlier when you sent us, email, that kind of close working.
+12:08:58 Ok so now it's telling you that there's an error, basically.
+12:09:02 Yeah, so we are aware of that unfortunately there is an error. We're trying to fix it, what happens is that we overcome at the CPU for those of you who are interested in in the in the complexities of Cuban 80s We are committed the number of CPU so this
+12:09:19 the server run out of CPU so now we lower that a little bit so it should get better after the break.
+12:09:30 Any other question.
+12:09:44 press I'm impressed by the shortest shortest solution to to our exercise.
+12:09:51 Oh I wasn't following.
+12:09:53 Yeah, so we'll just leave this open right there is no need to. I'm going to leave this open, and, and, yeah, if people want to stay around for.
+12:10:08 We'll come back in.
+12:10:08 At 115 so I guess it's like an hour and five minutes.
+12:10:15 Okay, enjoy lunch, dinner.
+12:10:19 Breakfast, whatever day.
+12:10:20 Bye,
+12:10:30 are we coming back to the same.
+12:10:33 So it.
+12:10:36 Yeah, for the entirety of the meeting will be the same link for the two weeks.
